@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What does HDD stand for?",
+      "back": "Hard Disk Drive",
+      "category": "storage",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the primary function of a computer disk?",
+      "back": "To store data persistently, even after a restart or crash.",
+      "category": "storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between HDD and SSD?",
+      "back": "HDD (Hard Disk Drive) is mechanical and slower, while SSD (Solid State Drive) is faster and uses flash memory.",
+      "category": "storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How is storage capacity typically measured?",
+      "back": "In gigabytes (GB) or terabytes (TB), where 1 TB = 10^12 bytes and 1 GB = 10^9 bytes.",
+      "category": "storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does RAM stand for?",
+      "back": "Random Access Memory",
+      "category": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How does RAM differ from disk storage?",
+      "back": "RAM is typically smaller in capacity, faster, and more expensive compared to disk storage.",
+      "category": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the typical storage capacity range for RAM?",
+      "back": "From 2 GB to 32 GB or more.",
+      "category": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of 'persistent storage'?",
+      "back": "Data remains saved even when the computer is turned off or crashes.",
+      "category": "storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a byte?",
+      "back": "A unit of digital information that consists of 8 bits.",
+      "category": "data representation",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a bit?",
+      "back": "The smallest unit of data in computing, representing a binary value of 0 or 1.",
+      "category": "data representation",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the time taken to write data to RAM typically measured in?",
+      "back": "Microseconds.",
+      "category": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is RAM considered more expensive than disk storage?",
+      "back": "Because RAM is faster and uses more advanced technology compared to traditional disk storage.",
+      "category": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens to data in RAM when the power is turned off?",
+      "back": "Data is lost, as RAM is volatile memory.",
+      "category": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of a computer's disk in software execution?",
+      "back": "It stores the data and programs that the CPU accesses during execution.",
+      "category": "software execution",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between bits, bytes, and data representation?",
+      "back": "Bits are combined to form bytes, which represent larger units of data, such as characters or numbers.",
+      "category": "data representation",
+      "difficulty": "medium"
+    }
+  ]
+}

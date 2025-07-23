@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does RPC stand for?",
+      "options": [
+        "Remote Procedure Call",
+        "Remote Processing Command",
+        "Rapid Protocol Communication",
+        "Remote Program Connection"
+      ],
+      "correct_answer": 0,
+      "explanation": "RPC stands for Remote Procedure Call, which is a protocol that allows a program to execute a procedure on a remote server."
+    },
+    {
+      "question": "In the client-server model, who initiates the request?",
+      "options": [
+        "The server",
+        "The database",
+        "The client",
+        "The network"
+      ],
+      "correct_answer": 2,
+      "explanation": "In the client-server model, the client is the entity that initiates the request to the server."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a client in the client-server model?",
+      "options": [
+        "It can be a browser",
+        "It can be a desktop machine",
+        "It can be another server",
+        "It must be an end user device"
+      ],
+      "correct_answer": 3,
+      "explanation": "The client does not have to be an end user device; it can also be another server."
+    },
+    {
+      "question": "What is the primary role of a server in the client-server model?",
+      "options": [
+        "To initiate requests",
+        "To fulfill requests",
+        "To store data",
+        "To manage network traffic"
+      ],
+      "correct_answer": 1,
+      "explanation": "The primary role of a server is to accept requests from clients and fulfill those requests."
+    },
+    {
+      "question": "Which application layer protocol is primarily discussed in the transcript?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "TCP"
+      ],
+      "correct_answer": 1,
+      "explanation": "HTTP (Hypertext Transfer Protocol) is the main application layer protocol discussed in the transcript."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "The client in the client-server model must always be a web browser.",
+      "correct_answer": false,
+      "explanation": "The client can be any entity that initiates a request, including other servers, not just web browsers."
+    },
+    {
+      "question": "RPC allows communication between machines over a network.",
+      "correct_answer": true,
+      "explanation": "RPC (Remote Procedure Call) enables communication between machines that are separated by a network."
+    },
+    {
+      "question": "In the client-server model, the server is typically an end-user device.",
+      "correct_answer": false,
+      "explanation": "The server is usually a computer in a data center or warehouse, not an end-user device."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the client-server model.",
+      "sample_answer": "The client-server model is a network architecture where a client initiates requests to a server, which processes those requests and returns responses.",
+      "key_points": [
+        "Client initiates requests",
+        "Server fulfills requests",
+        "Can involve multiple types of clients"
+      ]
+    },
+    {
+      "question": "What is the significance of RPC in network communication?",
+      "sample_answer": "RPC allows different machines to communicate and execute functions remotely, facilitating distributed computing.",
+      "key_points": [
+        "Enables remote function execution",
+        "Supports communication over networks",
+        "Essential for distributed systems"
+      ]
+    }
+  ]
+}

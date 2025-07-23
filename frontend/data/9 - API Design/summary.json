@@ -1,0 +1,30 @@
+{
+  "summary": "API design is a critical aspect of software development that focuses on defining how users interact with an application through its interface. It encompasses various paradigms that dictate the structure and functionality of the API, often referred to as the API contract. The design process involves specifying endpoints for actions such as creating, reading, updating, and deleting resources\u2014commonly known as CRUD operations. A well-designed API should prioritize user experience, ensuring that changes do not disrupt existing functionality, which is achieved through practices like backward compatibility and versioning.",
+  "key_concepts": [
+    "API contract",
+    "CRUD operations",
+    "RESTful APIs",
+    "Backward compatibility",
+    "Versioning",
+    "Pagination",
+    "Endpoint design",
+    "HTTP methods"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the fundamental principles of API design.",
+    "You will learn how to define endpoints for various operations and ensure backward compatibility.",
+    "You will gain insights into the importance of pagination and versioning in API design."
+  ],
+  "difficulty_level": "beginner",
+  "estimated_study_time": "60 minutes",
+  "prerequisites": [
+    "Basic understanding of web development concepts",
+    "Familiarity with HTTP methods and JSON format"
+  ],
+  "related_topics": [
+    "Advanced API design patterns",
+    "GraphQL vs REST",
+    "API security best practices",
+    "API documentation tools"
+  ]
+}

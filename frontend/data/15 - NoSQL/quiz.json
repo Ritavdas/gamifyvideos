@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does NoSQL stand for?",
+      "options": [
+        "Not Only SQL",
+        "No Structured Query Language",
+        "No SQL Queries",
+        "Not Standard SQL"
+      ],
+      "correct_answer": 0,
+      "explanation": "NoSQL stands for 'Not Only SQL', indicating that it encompasses more than just SQL databases."
+    },
+    {
+      "question": "What is the primary advantage of NoSQL databases over SQL databases?",
+      "options": [
+        "Data integrity",
+        "Complex queries",
+        "Scalability",
+        "Standardized schema"
+      ],
+      "correct_answer": 2,
+      "explanation": "The primary advantage of NoSQL databases is their ability to scale more effectively than traditional SQL databases."
+    },
+    {
+      "question": "Which of the following is a type of NoSQL database?",
+      "options": [
+        "Key-Value Store",
+        "Relational Database",
+        "Graph Database",
+        "Object-Oriented Database"
+      ],
+      "correct_answer": 0,
+      "explanation": "Key-Value Store is a type of NoSQL database, while the others are not."
+    },
+    {
+      "question": "What is a key characteristic of key-value stores?",
+      "options": [
+        "They use complex queries",
+        "They have relations between data",
+        "They store data in memory",
+        "They require a fixed schema"
+      ],
+      "correct_answer": 2,
+      "explanation": "Key-value stores typically store data in memory, which allows for faster read and write operations."
+    },
+    {
+      "question": "In NoSQL databases, what is a document?",
+      "options": [
+        "A row in a table",
+        "A collection of key-value pairs",
+        "A flat structure with fields",
+        "A unique identifier"
+      ],
+      "correct_answer": 2,
+      "explanation": "In NoSQL databases, a document is a flat structure with fields, often stored in collections."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "NoSQL databases do not support any form of relationships between data.",
+      "correct_answer": false,
+      "explanation": "While NoSQL databases do not support relationships in the same way as SQL databases, some NoSQL types can represent relationships, albeit differently."
+    },
+    {
+      "question": "Key-value stores are typically slower than traditional SQL databases.",
+      "correct_answer": false,
+      "explanation": "Key-value stores are generally faster than traditional SQL databases because they operate in memory."
+    },
+    {
+      "question": "NoSQL databases are always superior to SQL databases.",
+      "correct_answer": false,
+      "explanation": "NoSQL databases have advantages in scalability, but they also come with trade-offs and are not always superior to SQL databases."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the main difference between SQL and NoSQL databases.",
+      "sample_answer": "SQL databases are relational and use structured query language, while NoSQL databases are non-relational and can handle unstructured data.",
+      "key_points": [
+        "SQL databases use structured query language",
+        "NoSQL databases are non-relational",
+        "NoSQL can handle unstructured data"
+      ]
+    },
+    {
+      "question": "What are some common use cases for key-value stores?",
+      "sample_answer": "Key-value stores are commonly used for caching and session management due to their speed and simplicity.",
+      "key_points": [
+        "Caching",
+        "Session management",
+        "High-speed data retrieval"
+      ]
+    }
+  ]
+}

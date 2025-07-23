@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary purpose of database replication?",
+      "options": [
+        "To increase data redundancy",
+        "To handle more requests",
+        "To improve data integrity",
+        "To simplify database design"
+      ],
+      "correct_answer": 1,
+      "explanation": "The primary purpose of database replication is to handle more requests by creating copies of the database."
+    },
+    {
+      "question": "In leader follower replication, what can clients do with the leader database?",
+      "options": [
+        "Only read data",
+        "Only write data",
+        "Read and write data",
+        "Neither read nor write data"
+      ],
+      "correct_answer": 2,
+      "explanation": "Clients can read from and write data to the leader database in a leader follower replication setup."
+    },
+    {
+      "question": "What is another term for leader follower replication?",
+      "options": [
+        "Master slave replication",
+        "Primary secondary replication",
+        "Peer to peer replication",
+        "Cluster replication"
+      ],
+      "correct_answer": 0,
+      "explanation": "Leader follower replication is also known as master slave replication, although the latter term is becoming outdated."
+    },
+    {
+      "question": "What is a potential issue with allowing writes to follower databases?",
+      "options": [
+        "Increased latency",
+        "Data inconsistency",
+        "Higher costs",
+        "Limited scalability"
+      ],
+      "correct_answer": 1,
+      "explanation": "Allowing writes to follower databases can lead to data inconsistency because the follower may not replicate changes correctly."
+    },
+    {
+      "question": "Which of the following is NOT a benefit of replication?",
+      "options": [
+        "Improved read performance",
+        "Increased availability",
+        "Data backup",
+        "Reduced write performance"
+      ],
+      "correct_answer": 3,
+      "explanation": "Replication can improve read performance and increase availability, but it does not inherently reduce write performance."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "Replication can help a database handle increased traffic.",
+      "correct_answer": true,
+      "explanation": "Replication allows for multiple copies of the database, which can distribute the load and handle more requests."
+    },
+    {
+      "question": "In leader follower replication, clients can write data to follower databases.",
+      "correct_answer": false,
+      "explanation": "Clients are not allowed to write data to follower databases; they can only write to the leader database."
+    },
+    {
+      "question": "Leader follower replication is a method used to improve data integrity.",
+      "correct_answer": false,
+      "explanation": "Leader follower replication primarily focuses on improving performance and availability, not directly on data integrity."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between leader follower replication and sharding.",
+      "sample_answer": "Leader follower replication involves creating copies of a database to handle more requests, while sharding involves splitting a database into smaller, more manageable pieces called shards.",
+      "key_points": [
+        "Leader follower replication creates copies for load balancing",
+        "Sharding divides data across multiple databases",
+        "Both methods improve performance but in different ways"
+      ]
+    },
+    {
+      "question": "What are some tradeoffs to consider when implementing replication?",
+      "sample_answer": "Tradeoffs include increased complexity, potential for data inconsistency, and the overhead of maintaining multiple database copies.",
+      "key_points": [
+        "Increased complexity in system design",
+        "Risk of data inconsistency",
+        "Overhead of synchronizing data"
+      ]
+    }
+  ]
+}

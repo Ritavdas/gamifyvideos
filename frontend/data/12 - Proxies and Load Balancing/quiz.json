@@ -1,0 +1,95 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary function of a forward proxy?",
+      "options": [
+        "To cache data",
+        "To forward requests on behalf of clients",
+        "To load balance traffic",
+        "To encrypt data"
+      ],
+      "correct_answer": 1,
+      "explanation": "A forward proxy forwards requests from clients to the actual server, acting on behalf of the client."
+    },
+    {
+      "question": "Which of the following is NOT a function of a forward proxy?",
+      "options": [
+        "Hiding the client's IP address",
+        "Blocking access to certain websites",
+        "Caching static content",
+        "Acting as a load balancer"
+      ],
+      "correct_answer": 3,
+      "explanation": "While forward proxies can cache data and block access to sites, they do not function as load balancers."
+    },
+    {
+      "question": "What is one common use of a forward proxy in a corporate environment?",
+      "options": [
+        "To increase server response time",
+        "To allow employees to access blocked websites",
+        "To block access to certain sites",
+        "To enhance data encryption"
+      ],
+      "correct_answer": 2,
+      "explanation": "In corporate environments, forward proxies are often used to block access to certain sites, such as social media."
+    },
+    {
+      "question": "How does a forward proxy help in bypassing network restrictions?",
+      "options": [
+        "By encrypting all traffic",
+        "By acting as an intermediary that can access restricted servers",
+        "By caching frequently accessed data",
+        "By distributing requests among multiple servers"
+      ],
+      "correct_answer": 1,
+      "explanation": "A forward proxy can access restricted servers on behalf of the client, effectively bypassing network restrictions."
+    },
+    {
+      "question": "What is the main difference between a forward proxy and a reverse proxy?",
+      "options": [
+        "A forward proxy serves clients, while a reverse proxy serves servers",
+        "A forward proxy caches data, while a reverse proxy does not",
+        "A forward proxy is used for load balancing, while a reverse proxy is not",
+        "There is no difference"
+      ],
+      "correct_answer": 0,
+      "explanation": "A forward proxy acts on behalf of clients, while a reverse proxy acts on behalf of servers."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "A forward proxy can be used to hide the identity of a client.",
+      "correct_answer": true,
+      "explanation": "Forward proxies can mask the client's IP address, providing anonymity."
+    },
+    {
+      "question": "All proxies are the same and serve the same purpose.",
+      "correct_answer": false,
+      "explanation": "There are different types of proxies, such as forward and reverse proxies, each serving different purposes."
+    },
+    {
+      "question": "A reverse proxy can help in load balancing traffic to multiple servers.",
+      "correct_answer": true,
+      "explanation": "Reverse proxies can distribute incoming requests among multiple servers, effectively balancing the load."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "What are the two main types of proxies discussed in the transcript?",
+      "sample_answer": "Forward proxy and reverse proxy.",
+      "key_points": [
+        "Forward proxy",
+        "Reverse proxy"
+      ]
+    },
+    {
+      "question": "Explain how a forward proxy can be beneficial in a corporate network.",
+      "sample_answer": "A forward proxy can enforce internet usage policies by blocking access to certain websites, ensuring that employees adhere to company guidelines.",
+      "key_points": [
+        "Enforces policies",
+        "Blocks access to certain websites",
+        "Provides anonymity for users"
+      ]
+    }
+  ]
+}

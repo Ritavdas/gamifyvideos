@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What does DNS stand for?",
+      "back": "Domain Name System",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the primary function of DNS?",
+      "back": "To translate human-readable domain names into IP addresses.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is DNS compared to a phone book?",
+      "back": "Because it maps user-friendly names (domain names) to their corresponding numerical addresses (IP addresses), similar to how a phone book maps names to phone numbers.",
+      "category": "analogy",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens when you type a domain name into a browser?",
+      "back": "The DNS resolves the domain name to its corresponding IP address, allowing the browser to send a request to the correct server.",
+      "category": "process",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is NSLookUp?",
+      "back": "A shell command used to query the DNS to obtain the IP address associated with a domain name.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is an IP address?",
+      "back": "A unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What role does the Internet Service Provider (ISP) play in DNS?",
+      "back": "ISPs are crucial for the functioning of DNS as they help route requests and responses between clients and DNS servers.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a domain name?",
+      "back": "A human-readable address used to identify a location on the internet, such as google.com.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Can you access a website using its IP address?",
+      "back": "Yes, you can access a website by entering its IP address directly into the browser.",
+      "category": "practical application",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a misconception about DNS?",
+      "back": "Many people think DNS is a single entity, but it is actually a decentralized system consisting of many servers and components.",
+      "category": "misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between domain names and IP addresses?",
+      "back": "Domain names are user-friendly representations of IP addresses, allowing users to access websites without remembering numerical addresses.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of translating domain names to IP addresses?",
+      "back": "It allows users to easily navigate the internet without needing to remember complex numerical addresses.",
+      "category": "importance",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does the DNS resolution process involve?",
+      "back": "It involves querying DNS servers to find the corresponding IP address for a given domain name.",
+      "category": "process",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the high-level overview of how DNS works?",
+      "back": "DNS translates domain names into IP addresses, enabling clients to send requests to the correct servers.",
+      "category": "overview",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens if a DNS query fails?",
+      "back": "If a DNS query fails, the user may not be able to access the desired website, resulting in an error message.",
+      "category": "practical application",
+      "difficulty": "medium"
+    }
+  ]
+}

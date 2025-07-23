@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is a forward proxy?",
+      "back": "A forward proxy is a server that sits between a client and the destination server, forwarding requests from the client to the server and hiding the client's identity.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary function of a proxy server?",
+      "back": "The primary function of a proxy server is to act as an intermediary for requests from clients seeking resources from other servers, often providing anonymity and filtering capabilities.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does a forward proxy enhance user privacy?",
+      "back": "A forward proxy enhances user privacy by hiding the client's IP address from the destination server, acting on behalf of the client.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a reverse proxy?",
+      "back": "A reverse proxy is a server that sits in front of web servers and forwards client requests to the appropriate server, often used for load balancing and security.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are some common uses of forward proxies?",
+      "back": "Common uses of forward proxies include bypassing content restrictions, filtering web traffic, and providing anonymity for users.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is load balancing?",
+      "back": "Load balancing is the process of distributing network or application traffic across multiple servers to ensure no single server becomes overwhelmed, improving performance and reliability.",
+      "category": "Load Balancing",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are the benefits of using a load balancer?",
+      "back": "Benefits of using a load balancer include improved application availability, better resource utilization, and enhanced fault tolerance.",
+      "category": "Load Balancing",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about proxies?",
+      "back": "A common misconception is that all proxies provide anonymity; however, some proxies may log user data or may not effectively mask the user's identity.",
+      "category": "Proxies",
+      "difficulty": "hard"
+    },
+    {
+      "front": "How can proxies be used in corporate environments?",
+      "back": "In corporate environments, proxies can be used to enforce security policies, block access to certain websites, and monitor employee internet usage.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between a forward proxy and a reverse proxy?",
+      "back": "A forward proxy acts on behalf of clients to access servers, while a reverse proxy acts on behalf of servers to handle incoming client requests.",
+      "category": "Proxies",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is a real-world example of a forward proxy?",
+      "back": "A real-world example of a forward proxy is a corporate proxy that restricts access to certain websites like social media or streaming services.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What role does a load balancer play in a web application architecture?",
+      "back": "A load balancer distributes incoming traffic across multiple servers to optimize resource use, minimize response time, and avoid overload on any single server.",
+      "category": "Load Balancing",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the impact of not using a load balancer?",
+      "back": "Not using a load balancer can lead to server overload, increased response times, and potential downtime if a server fails.",
+      "category": "Load Balancing",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are some methods of load balancing?",
+      "back": "Common methods of load balancing include round-robin, least connections, and IP hash.",
+      "category": "Load Balancing",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why might a company block access to certain sites using a proxy?",
+      "back": "A company might block access to certain sites to maintain productivity, enforce security policies, or comply with legal regulations.",
+      "category": "Proxies",
+      "difficulty": "medium"
+    }
+  ]
+}

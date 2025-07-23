@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does TCP stand for?",
+      "options": [
+        "Transmission Control Protocol",
+        "Transport Control Protocol",
+        "Transfer Control Protocol",
+        "Transmission Communication Protocol"
+      ],
+      "correct_answer": 0,
+      "explanation": "TCP stands for Transmission Control Protocol, which is a core protocol of the Internet Protocol Suite."
+    },
+    {
+      "question": "Which of the following is a key feature of TCP?",
+      "options": [
+        "Connectionless communication",
+        "Packet ordering",
+        "Low latency",
+        "No error checking"
+      ],
+      "correct_answer": 1,
+      "explanation": "TCP provides packet ordering, ensuring that data is reassembled in the order it was sent."
+    },
+    {
+      "question": "What is the main difference between TCP and UDP?",
+      "options": [
+        "TCP is faster than UDP",
+        "UDP is connection-oriented",
+        "TCP is reliable and ensures delivery",
+        "UDP guarantees packet ordering"
+      ],
+      "correct_answer": 2,
+      "explanation": "TCP is reliable and ensures that all packets are delivered, while UDP does not guarantee delivery."
+    },
+    {
+      "question": "What does the 'IP' in TCP/IP stand for?",
+      "options": [
+        "Internet Protocol",
+        "Internal Protocol",
+        "Interconnected Protocol",
+        "Internet Package"
+      ],
+      "correct_answer": 0,
+      "explanation": "IP stands for Internet Protocol, which is used for sending data packets across networks."
+    },
+    {
+      "question": "Which protocol is considered more common for large data transfers?",
+      "options": [
+        "UDP",
+        "HTTP",
+        "TCP",
+        "FTP"
+      ],
+      "correct_answer": 2,
+      "explanation": "TCP is more common for large data transfers due to its reliability and ordering features."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "TCP guarantees that data packets will arrive in the order they were sent.",
+      "correct_answer": true,
+      "explanation": "TCP ensures that packets are reassembled in the correct order, which is a key feature of the protocol."
+    },
+    {
+      "question": "UDP is a connection-oriented protocol.",
+      "correct_answer": false,
+      "explanation": "UDP is a connectionless protocol, meaning it does not establish a connection before sending data."
+    },
+    {
+      "question": "TCP can resend missing packets to ensure complete data delivery.",
+      "correct_answer": true,
+      "explanation": "TCP has mechanisms to detect lost packets and will resend them to ensure all data is received."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the concept of packet ordering in TCP.",
+      "sample_answer": "Packet ordering in TCP ensures that data packets are reassembled in the exact order they were sent, which is essential for data integrity.",
+      "key_points": [
+        "TCP reorders packets",
+        "Ensures data integrity",
+        "Important for applications like file transfers"
+      ]
+    },
+    {
+      "question": "What are the advantages of using TCP over UDP?",
+      "sample_answer": "TCP provides reliability, ensures packet delivery, and maintains the order of packets, making it suitable for applications where data integrity is crucial.",
+      "key_points": [
+        "Reliability",
+        "Packet delivery assurance",
+        "Maintains order of packets"
+      ]
+    }
+  ]
+}

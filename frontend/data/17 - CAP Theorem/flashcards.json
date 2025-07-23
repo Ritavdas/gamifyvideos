@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What is the CAP Theorem?",
+      "back": "A theorem that states in a distributed data system, you can only guarantee two out of the following three properties: Consistency, Availability, and Partition Tolerance.",
+      "category": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does 'C' stand for in the CAP Theorem?",
+      "back": "Consistency - all nodes in a distributed system see the same data at the same time.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does 'A' stand for in the CAP Theorem?",
+      "back": "Availability - every request receives a response, either with the requested data or an error.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does 'P' stand for in the CAP Theorem?",
+      "back": "Partition Tolerance - the system continues to operate despite network partitions that prevent communication between nodes.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about the CAP Theorem?",
+      "back": "Many believe that you can choose any two of the three properties (C, A, P), but P is always guaranteed and cannot be chosen.",
+      "category": "misconception",
+      "difficulty": "hard"
+    },
+    {
+      "front": "When does the CAP Theorem apply?",
+      "back": "It applies to distributed databases, particularly when data is replicated across multiple nodes.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is partition tolerance considered poorly named?",
+      "back": "The term 'partition' can be confusing; it refers specifically to network partitions that disrupt communication between nodes.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "How does the CAP Theorem relate to SQL databases?",
+      "back": "The CAP Theorem is mainly applicable to NoSQL databases with replication; it is less relevant for single-node SQL databases without replication.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the implication of having a network partition in a distributed system?",
+      "back": "When a network partition occurs, nodes may become unable to communicate, affecting consistency and availability.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of Martin Kleppmann's blog post on the CAP Theorem?",
+      "back": "It raises important points about the misunderstandings and limitations of the CAP Theorem.",
+      "category": "reference",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between replication and the CAP Theorem?",
+      "back": "The CAP Theorem is specifically concerned with systems that replicate data across multiple nodes, which is essential for its application.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the practical implication of choosing between consistency and availability?",
+      "back": "In the event of a network partition, a system must prioritize either providing consistent data or ensuring that all requests receive a response.",
+      "category": "application",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What happens to data consistency during a network partition?",
+      "back": "Data consistency may be sacrificed to maintain availability, leading to potential discrepancies between nodes.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is an example of a distributed system?",
+      "back": "A system with multiple database nodes, such as a NoSQL database like Cassandra or MongoDB, where data is replicated across nodes.",
+      "category": "example",
+      "difficulty": "easy"
+    }
+  ]
+}

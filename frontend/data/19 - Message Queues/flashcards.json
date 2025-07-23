@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is a message queue?",
+      "back": "A message queue is a component that stores application events asynchronously, allowing them to be processed later by an application server.",
+      "category": "Technical Term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Why use message queues?",
+      "back": "Message queues help manage large amounts of application events that may overwhelm the server by allowing asynchronous processing.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does it mean to process events asynchronously?",
+      "back": "Processing events asynchronously means that events are handled at a later time rather than immediately, allowing for better resource management.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is event decoupling?",
+      "back": "Event decoupling refers to separating the event producer and consumer, allowing them to operate independently without direct interaction.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does durability in message queues work?",
+      "back": "Durability in message queues means that messages are persisted on disk, ensuring they are not lost even if the queue crashes.",
+      "category": "Technical Term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the typical processing order in message queues?",
+      "back": "The typical processing order in message queues is First In, First Out (FIFO), although other methods can be used.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of a message producer?",
+      "back": "A message producer is an application or service that creates and sends events to the message queue.",
+      "category": "Technical Term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the role of a message consumer?",
+      "back": "A message consumer is an application or service that retrieves and processes events from the message queue.",
+      "category": "Technical Term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the difference between message queues and databases?",
+      "back": "While both can store data, message queues are designed for asynchronous event handling, whereas databases are primarily for persistent data storage and retrieval.",
+      "category": "Concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is a common practical application of message queues?",
+      "back": "A common application is processing payments, where the payment event is queued and processed later to avoid blocking the application.",
+      "category": "Practical Application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is Pub/Sub in relation to message queues?",
+      "back": "Pub/Sub (Publish/Subscribe) is a messaging pattern that allows multiple consumers to receive messages from a single producer, enhancing scalability.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is polling in the context of message queues?",
+      "back": "Polling is a method where the consumer actively checks the queue for new messages at regular intervals.",
+      "category": "Technical Term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a misconception about message queues?",
+      "back": "A common misconception is that message queues are only for high-volume applications; they can also be beneficial for any application needing asynchronous processing.",
+      "category": "Misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How do message queues help with scalability?",
+      "back": "Message queues allow applications to handle more events than they can process in real-time by queuing them for later processing.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of storing messages on disk in a message queue?",
+      "back": "Storing messages on disk ensures data persistence and durability, preventing data loss in case of system failures.",
+      "category": "Technical Term",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does the 'C' in CAP theorem stand for?",
+      "options": [
+        "Consistency",
+        "Capacity",
+        "Compatibility",
+        "Complexity"
+      ],
+      "correct_answer": 0,
+      "explanation": "The 'C' in CAP theorem stands for Consistency, which refers to the guarantee that all nodes see the same data at the same time."
+    },
+    {
+      "question": "In the context of CAP theorem, what does partition tolerance imply?",
+      "options": [
+        "The system can handle data loss",
+        "The system can continue to operate despite network failures",
+        "The system can scale indefinitely",
+        "The system can be easily migrated"
+      ],
+      "correct_answer": 1,
+      "explanation": "Partition tolerance implies that the system can continue to operate even when there are network failures that prevent nodes from communicating."
+    },
+    {
+      "question": "Which of the following is NOT one of the three components of the CAP theorem?",
+      "options": [
+        "Consistency",
+        "Availability",
+        "Partition Tolerance",
+        "Scalability"
+      ],
+      "correct_answer": 3,
+      "explanation": "Scalability is not one of the three components of the CAP theorem; the three components are Consistency, Availability, and Partition Tolerance."
+    },
+    {
+      "question": "According to the CAP theorem, which two properties can a distributed system guarantee at the same time?",
+      "options": [
+        "Consistency and Availability",
+        "Availability and Partition Tolerance",
+        "Consistency and Partition Tolerance",
+        "All three properties"
+      ],
+      "correct_answer": 1,
+      "explanation": "A distributed system can guarantee either Consistency or Availability, but not both, while Partition Tolerance is always guaranteed."
+    },
+    {
+      "question": "What is a common misconception about the CAP theorem?",
+      "options": [
+        "It applies only to SQL databases",
+        "Partition tolerance is optional",
+        "You can choose any two of the three properties",
+        "It only applies to single-node databases"
+      ],
+      "correct_answer": 2,
+      "explanation": "A common misconception is that you can choose any two of the three properties; however, Partition Tolerance is always a part of the system."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "The CAP theorem applies to single-node databases.",
+      "correct_answer": false,
+      "explanation": "The CAP theorem primarily applies to distributed databases with replicated data, not to single-node databases."
+    },
+    {
+      "question": "In a distributed system, partition tolerance is guaranteed by the CAP theorem.",
+      "correct_answer": true,
+      "explanation": "Partition tolerance is always guaranteed in the context of the CAP theorem, meaning the system can continue to function despite network partitions."
+    },
+    {
+      "question": "You can achieve Consistency and Availability simultaneously in a distributed system according to the CAP theorem.",
+      "correct_answer": false,
+      "explanation": "According to the CAP theorem, you cannot achieve both Consistency and Availability at the same time in the presence of network partitions."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the significance of partition tolerance in the CAP theorem.",
+      "sample_answer": "Partition tolerance is crucial because it ensures that a distributed system can continue to operate even when there are network failures.",
+      "key_points": [
+        "Allows operation during network failures",
+        "Essential for distributed systems",
+        "Implied in the CAP theorem"
+      ]
+    },
+    {
+      "question": "What are the implications of choosing between Consistency and Availability in a distributed system?",
+      "sample_answer": "Choosing Consistency means that all nodes will reflect the same data, potentially sacrificing availability during network issues. Choosing Availability means the system remains operational, but some nodes may show outdated data.",
+      "key_points": [
+        "Trade-off between data accuracy and system uptime",
+        "Critical for system design",
+        "Influences user experience"
+      ]
+    }
+  ]
+}

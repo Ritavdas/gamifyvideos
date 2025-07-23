@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary purpose of a Content Delivery Network (CDN)?",
+      "options": [
+        "To store dynamic content",
+        "To cache data closer to end users",
+        "To run application code",
+        "To replace origin servers"
+      ],
+      "correct_answer": 1,
+      "explanation": "The primary purpose of a CDN is to cache data closer to end users, reducing latency and improving load times."
+    },
+    {
+      "question": "Which type of content can be stored on CDN servers?",
+      "options": [
+        "Dynamic content",
+        "Application code",
+        "Static content",
+        "Database queries"
+      ],
+      "correct_answer": 2,
+      "explanation": "CDN servers are designed to store static content that does not change frequently, such as images and JavaScript files."
+    },
+    {
+      "question": "What is a potential downside of using CDN servers?",
+      "options": [
+        "They can store dynamic content",
+        "They require constant updates",
+        "They are limited to static content",
+        "They are located far from users"
+      ],
+      "correct_answer": 2,
+      "explanation": "CDN servers are limited to static content, meaning they cannot run application code or store dynamic data."
+    },
+    {
+      "question": "What is the role of the origin server in a CDN setup?",
+      "options": [
+        "To serve all content directly to users",
+        "To host static content only",
+        "To store the original version of content",
+        "To replace CDN servers"
+      ],
+      "correct_answer": 2,
+      "explanation": "The origin server hosts the original version of the content, which can be cached by CDN servers for faster access."
+    },
+    {
+      "question": "What new development is mentioned that allows code to run closer to end users?",
+      "options": [
+        "Edge servers",
+        "Dynamic servers",
+        "Application servers",
+        "Content servers"
+      ],
+      "correct_answer": 0,
+      "explanation": "Edge servers are a new development that allows code to run on servers distributed around the world, closer to end users."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "CDN servers can run application code.",
+      "correct_answer": false,
+      "explanation": "CDN servers are not designed to run application code; they can only store static content."
+    },
+    {
+      "question": "Static content includes images and videos that do not change frequently.",
+      "correct_answer": true,
+      "explanation": "Static content refers to files like images and videos that remain the same for all users and do not require frequent updates."
+    },
+    {
+      "question": "The primary goal of a CDN is to reduce the distance data must travel to reach end users.",
+      "correct_answer": true,
+      "explanation": "The main goal of a CDN is to cache content closer to users, thereby reducing latency and improving load times."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between CDN servers and origin servers.",
+      "sample_answer": "CDN servers cache static content closer to users, while origin servers host the original content and can run application code.",
+      "key_points": [
+        "CDN servers cache static content",
+        "Origin servers host original content",
+        "CDN servers reduce latency"
+      ]
+    },
+    {
+      "question": "What types of static content are commonly stored on CDNs?",
+      "sample_answer": "Common types of static content stored on CDNs include images, videos, and JavaScript files.",
+      "key_points": [
+        "Images",
+        "Videos",
+        "JavaScript files"
+      ]
+    }
+  ]
+}

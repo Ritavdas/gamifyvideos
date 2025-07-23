@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is the primary limitation of HTTP?",
+      "back": "HTTP is not designed for real-time communication, leading to delays in data transmission.",
+      "category": "protocol limitations",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What protocol is designed to fill the gaps of HTTP for real-time applications?",
+      "back": "WebSockets are designed to enable real-time communication between clients and servers.",
+      "category": "protocols",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does FTP stand for and what is its primary use?",
+      "back": "FTP stands for File Transfer Protocol, used for transferring large files between computers.",
+      "category": "protocols",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the default port for SMTP?",
+      "back": "The default port for SMTP is 25.",
+      "category": "protocols",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does SSH stand for and what is its purpose?",
+      "back": "SSH stands for Secure Shell, used for securely connecting to another machine to run command-line interfaces.",
+      "category": "protocols",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is WebRTC optimized for?",
+      "back": "WebRTC is optimized for video and audio streaming.",
+      "category": "protocols",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What transport layer protocol is most commonly used by application layer protocols?",
+      "back": "TCP (Transmission Control Protocol) is the most commonly used transport layer protocol.",
+      "category": "protocols",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the primary difference between TCP and UDP?",
+      "back": "TCP is connection-oriented and reliable, while UDP is connectionless and faster but less reliable.",
+      "category": "protocols",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is polling in the context of HTTP?",
+      "back": "Polling is repeatedly sending HTTP requests at intervals to check for new data.",
+      "category": "communication methods",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a drawback of using polling for real-time applications?",
+      "back": "Polling can introduce delays and inefficiencies, as it requires waiting for set intervals to check for new data.",
+      "category": "communication methods",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does WebSockets improve upon HTTP for applications like chat?",
+      "back": "WebSockets provide a persistent connection that allows real-time data exchange without the need for repeated requests.",
+      "category": "protocol advantages",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the challenge of using HTTP for chat applications?",
+      "back": "HTTP requires constant polling to receive new messages, which can lead to latency and inefficiency.",
+      "category": "application challenges",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the main advantage of using WebRTC over TCP for streaming?",
+      "back": "WebRTC uses UDP, which reduces latency and is better suited for real-time audio and video streaming.",
+      "category": "protocol advantages",
+      "difficulty": "hard"
+    },
+    {
+      "front": "Why is reliability important for protocols like FTP and SMTP?",
+      "back": "Reliability ensures that files and emails are transferred accurately and completely without loss.",
+      "category": "protocol importance",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about WebSockets?",
+      "back": "A common misconception is that WebSockets are only for chat applications; they can be used for any real-time data exchange.",
+      "category": "misconceptions",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "flashcards": [
+    {
+      "front": "What is consistent hashing?",
+      "back": "A technique used to distribute requests across a set of servers in a way that minimizes the reorganization of data when servers are added or removed.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does basic hashing work in load balancing?",
+      "back": "It maps user requests to servers based on a hash function, typically using the user's IP address and the modulo operation with the number of servers.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the modulo operation in the context of hashing?",
+      "back": "A mathematical operation that finds the remainder of division of one number by another, used to determine which server to route a request to.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the benefit of using consistent hashing over round robin?",
+      "back": "Consistent hashing ensures that the same user (with the same IP address) is always routed to the same server, which is beneficial for caching and maintaining session state.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens when a server is added or removed in consistent hashing?",
+      "back": "Only a small number of keys (or user requests) need to be remapped to different servers, minimizing disruption compared to other hashing methods.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is a common misconception about load balancing with hashing?",
+      "back": "Many believe that hashing will always evenly distribute requests, but it relies on uniformity of input (like IP addresses) to achieve balance.",
+      "category": "misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a stateless server?",
+      "back": "A server that does not retain any information about user sessions between requests, treating each request as an independent transaction.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a Redis cache in the context of servers?",
+      "back": "An in-memory data structure store used as a database, cache, and message broker, which can improve performance by storing frequently accessed data.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is it important for servers to have their own individual cache?",
+      "back": "Individual caches allow servers to store user-specific data, improving response times and reducing the need to fetch data from a central source.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the impact of using round robin load balancing with stateful servers?",
+      "back": "It can lead to inconsistent user experiences, as the same user may be routed to different servers, causing loss of cached data or session state.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of a load balancer?",
+      "back": "To distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, improving responsiveness and availability.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does it mean for servers to be identical in a load balancing context?",
+      "back": "It means that all servers are configured the same way and can handle requests without any differences in functionality or performance.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How can consistent hashing improve scalability?",
+      "back": "It allows for easy addition or removal of servers with minimal impact on the existing distribution of requests, facilitating growth without major reconfiguration.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the significance of user IP addresses in hashing?",
+      "back": "User IP addresses serve as unique identifiers that can be hashed to determine which server should handle the user's requests.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary goal of load balancing?",
+      "back": "To optimize resource use, maximize throughput, minimize response time, and avoid overload on any single resource.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the difference between shared and individual caches?",
+      "back": "Shared caches are accessible by all servers, while individual caches are specific to each server and store data only for requests handled by that server.",
+      "category": "concept",
+      "difficulty": "medium"
+    }
+  ]
+}

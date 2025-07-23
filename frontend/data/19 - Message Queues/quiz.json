@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary purpose of message queues?",
+      "options": [
+        "To process events instantly",
+        "To store data permanently",
+        "To handle application events asynchronously",
+        "To scale up server capacity"
+      ],
+      "correct_answer": 2,
+      "explanation": "Message queues are designed to handle application events asynchronously, allowing for better management of event processing."
+    },
+    {
+      "question": "How are messages stored in a message queue?",
+      "options": [
+        "In RAM",
+        "On disk",
+        "In a cloud storage",
+        "In a local database"
+      ],
+      "correct_answer": 1,
+      "explanation": "Messages in a message queue are typically stored on disk, ensuring durability and persistence."
+    },
+    {
+      "question": "What does it mean to decouple services in the context of message queues?",
+      "options": [
+        "To combine services into one",
+        "To allow services to operate independently",
+        "To increase server load",
+        "To reduce data storage requirements"
+      ],
+      "correct_answer": 1,
+      "explanation": "Decoupling services means that the event producer and event consumer can operate independently, enhancing flexibility and scalability."
+    },
+    {
+      "question": "What is a common method for processing messages in a queue?",
+      "options": [
+        "Last in, first out",
+        "Random access",
+        "First in, first out",
+        "Batch processing"
+      ],
+      "correct_answer": 2,
+      "explanation": "Messages in a queue are typically processed in a first in, first out (FIFO) manner, ensuring that events are handled in the order they were received."
+    },
+    {
+      "question": "Which of the following is a feature of message queues?",
+      "options": [
+        "They are always real-time",
+        "They are durable and persistent",
+        "They require constant server polling",
+        "They eliminate the need for databases"
+      ],
+      "correct_answer": 1,
+      "explanation": "Message queues are designed to be durable and persistent, meaning that messages are not lost even if the queue crashes."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "Message queues can help manage a larger amount of scale by processing events instantly.",
+      "correct_answer": false,
+      "explanation": "Message queues allow for asynchronous processing of events, which means they do not need to be processed instantly."
+    },
+    {
+      "question": "Durability in message queues means that messages are stored in RAM.",
+      "correct_answer": false,
+      "explanation": "Durability means that messages are stored on disk, ensuring they are not lost even if the queue crashes."
+    },
+    {
+      "question": "Decoupling services allows for independent operation of event producers and consumers.",
+      "correct_answer": true,
+      "explanation": "Decoupling services means that the event producer and consumer can function independently, enhancing system flexibility."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain how message queues improve application performance.",
+      "sample_answer": "Message queues allow applications to handle events asynchronously, reducing the load on servers and enabling them to process events at a manageable pace.",
+      "key_points": [
+        "Asynchronous processing",
+        "Reduced server load",
+        "Improved scalability"
+      ]
+    },
+    {
+      "question": "What are some potential use cases for message queues?",
+      "sample_answer": "Message queues can be used for processing payments, handling user events in gaming, and managing data analytics tasks.",
+      "key_points": [
+        "Payment processing",
+        "User event handling",
+        "Data analytics management"
+      ]
+    }
+  ]
+}

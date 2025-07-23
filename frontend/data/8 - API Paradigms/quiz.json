@@ -1,0 +1,98 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Application Process Interface",
+        "Application Protocol Interface",
+        "Application Program Interface"
+      ],
+      "correct_answer": 0,
+      "explanation": "API stands for Application Programming Interface."
+    },
+    {
+      "question": "Which of the following is a common API paradigm mentioned in the transcript?",
+      "options": [
+        "SOAP",
+        "REST",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_answer": 1,
+      "explanation": "REST is one of the most common API paradigms discussed in the transcript."
+    },
+    {
+      "question": "What is GraphQL primarily used for?",
+      "options": [
+        "Storing data locally",
+        "Querying APIs",
+        "Sending emails",
+        "Transferring files"
+      ],
+      "correct_answer": 1,
+      "explanation": "GraphQL is primarily used for querying APIs and allows clients to request exactly the data they need."
+    },
+    {
+      "question": "What does REST stand for?",
+      "options": [
+        "Representational State Transfer",
+        "Remote State Transfer",
+        "Representational Service Transfer",
+        "Remote Service Transfer"
+      ],
+      "correct_answer": 0,
+      "explanation": "REST stands for Representational State Transfer."
+    },
+    {
+      "question": "Which of the following is NOT mentioned as a trade-off of API paradigms?",
+      "options": [
+        "Ease of use",
+        "Performance",
+        "Security",
+        "Cost"
+      ],
+      "correct_answer": 3,
+      "explanation": "Cost is not mentioned as a trade-off for API paradigms in the transcript."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "REST APIs are built on top of HTTP.",
+      "correct_answer": true,
+      "explanation": "REST APIs are typically built on top of the HTTP protocol."
+    },
+    {
+      "question": "GraphQL is more commonly used than REST APIs.",
+      "correct_answer": false,
+      "explanation": "REST APIs are more commonly used than GraphQL APIs."
+    },
+    {
+      "question": "APIs can refer to both internal and external programming interfaces.",
+      "correct_answer": true,
+      "explanation": "APIs can refer to any type of programming interface, whether internal or external."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "What are some pros and cons of using REST APIs?",
+      "sample_answer": "Pros include simplicity and widespread adoption; cons include over-fetching of data.",
+      "key_points": [
+        "Simplicity",
+        "Widespread adoption",
+        "Over-fetching",
+        "Limited flexibility"
+      ]
+    },
+    {
+      "question": "Explain the significance of local storage in web browsers.",
+      "sample_answer": "Local storage allows web applications to store data persistently on a user's machine.",
+      "key_points": [
+        "Persistent storage",
+        "Single machine",
+        "User preferences",
+        "Access via API"
+      ]
+    }
+  ]
+}

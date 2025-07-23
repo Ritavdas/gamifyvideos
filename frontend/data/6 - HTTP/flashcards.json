@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is the client-server model?",
+      "back": "A model where a client makes requests to a server, which processes and responds to those requests.",
+      "category": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does the term 'client' refer to in the client-server model?",
+      "back": "The client is the entity that initiates a request, which can be a user, a browser, or even another server.",
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary role of a server in the client-server model?",
+      "back": "To accept requests from clients and fulfill those requests by providing the necessary data or service.",
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Can a server act as a client?",
+      "back": "Yes, a server can make requests to another server, acting as a client in that interaction.",
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does RPC stand for?",
+      "back": "Remote Procedure Call.",
+      "category": "Technical Terms",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a Remote Procedure Call (RPC)?",
+      "back": "A protocol that allows a program to execute a procedure on a remote server as if it were a local procedure call.",
+      "category": "Technical Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of remote communication in RPC?",
+      "back": "It allows different machines, separated by a network, to communicate and execute procedures on each other.",
+      "category": "Technical Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What are application layer protocols?",
+      "back": "Protocols that operate at the application layer of the OSI model, facilitating communication between software applications over a network.",
+      "category": "Networking",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Which application layer protocols are primarily discussed in the transcript?",
+      "back": "HTTP and WebSockets.",
+      "category": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is HTTP?",
+      "back": "Hypertext Transfer Protocol, a protocol used for transmitting hypertext via the internet.",
+      "category": "Technical Terms",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What are WebSockets?",
+      "back": "A protocol that provides full-duplex communication channels over a single TCP connection, allowing real-time data exchange.",
+      "category": "Technical Terms",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about clients in the client-server model?",
+      "back": "That clients must always be end-user devices like browsers; they can also be other servers.",
+      "category": "Common Misconceptions",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is understanding application layer protocols important for developers?",
+      "back": "They are essential for system design and facilitate effective communication between applications.",
+      "category": "Practical Applications",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary purpose of a server in a data center?",
+      "back": "To serve requests from clients and provide necessary data or services.",
+      "category": "Networking",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How do machines communicate over a network?",
+      "back": "Through protocols like RPC, which define how data is structured and transmitted.",
+      "category": "Technical Concepts",
+      "difficulty": "medium"
+    }
+  ]
+}

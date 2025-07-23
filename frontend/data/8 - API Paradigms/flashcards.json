@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What does API stand for?",
+      "back": "Application Programming Interface",
+      "category": "Terminology",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the primary function of an API?",
+      "back": "To provide an interface for different software applications to communicate with each other.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is local storage in the context of web browsers?",
+      "back": "A way of storing information persistently in a browser, specific to a single machine.",
+      "category": "Technical Terms",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How is local storage accessed?",
+      "back": "Through an API that allows reading and writing data.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does REST stand for?",
+      "back": "Representational State Transfer",
+      "category": "Terminology",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Is REST a protocol?",
+      "back": "No, REST is a set of guidelines or restrictions applied to HTTP APIs.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are the three common API paradigms discussed?",
+      "back": "REST APIs, GraphQL APIs, and gRPC APIs.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is GraphQL?",
+      "back": "A query language for APIs, created by Facebook, that allows clients to request only the data they need.",
+      "category": "Technical Terms",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is gRPC?",
+      "back": "A high-performance RPC framework that uses HTTP/2 for transport and Protocol Buffers as the interface description language.",
+      "category": "Technical Terms",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is a key advantage of GraphQL over REST?",
+      "back": "GraphQL allows clients to request specific data, reducing over-fetching and under-fetching of data.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about APIs?",
+      "back": "That all APIs are the same; in reality, they can vary greatly in design and functionality.",
+      "category": "Misconceptions",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of understanding trade-offs in API design?",
+      "back": "It helps developers choose the right API paradigm based on the specific needs and constraints of their application.",
+      "category": "Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the main purpose of REST API restrictions?",
+      "back": "To standardize how APIs are designed and to ensure stateless communication between client and server.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a potential drawback of REST APIs?",
+      "back": "They can lead to over-fetching or under-fetching of data since clients may receive more or less data than needed.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is it important to be aware of different API paradigms?",
+      "back": "To effectively discuss and implement the most suitable API for a given application scenario.",
+      "category": "Concepts",
+      "difficulty": "medium"
+    }
+  ]
+}

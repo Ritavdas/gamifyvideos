@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary purpose of consistent hashing?",
+      "options": [
+        "To balance user requests across servers",
+        "To store user data",
+        "To encrypt user data",
+        "To monitor server performance"
+      ],
+      "correct_answer": 0,
+      "explanation": "Consistent hashing is primarily used to balance user requests across servers."
+    },
+    {
+      "question": "In the example given, what is the result of hashing the IP address 6 with 3 servers?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": 0,
+      "explanation": "When you mod 6 by 3, the remainder is 0, indicating that the request should be routed to server 0."
+    },
+    {
+      "question": "What advantage does consistent hashing have over round robin in the context of caching?",
+      "options": [
+        "It allows for better load balancing",
+        "It ensures the same user is always routed to the same server",
+        "It increases server capacity",
+        "It reduces network latency"
+      ],
+      "correct_answer": 1,
+      "explanation": "Consistent hashing ensures that the same user is always routed to the same server, which is beneficial for caching purposes."
+    },
+    {
+      "question": "What happens to user requests in a round robin approach?",
+      "options": [
+        "They are always sent to the same server",
+        "They are distributed evenly across all servers",
+        "They are sent to the server with the least traffic",
+        "They are prioritized based on user IP"
+      ],
+      "correct_answer": 1,
+      "explanation": "In a round robin approach, user requests are distributed evenly across all servers."
+    },
+    {
+      "question": "What is a potential issue with using round robin for servers with individual caches?",
+      "options": [
+        "Users may experience slower response times",
+        "Users may be routed to different servers, losing cached data",
+        "Servers may become overloaded",
+        "It does not work with stateless servers"
+      ],
+      "correct_answer": 1,
+      "explanation": "In a round robin approach, users may be routed to different servers, which can lead to losing cached data that is specific to a server."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "Consistent hashing can lead to uneven load distribution if the number of servers changes frequently.",
+      "correct_answer": true,
+      "explanation": "While consistent hashing helps with load balancing, frequent changes in the number of servers can still lead to uneven distribution."
+    },
+    {
+      "question": "In a stateless server architecture, consistent hashing is less beneficial than in a stateful architecture.",
+      "correct_answer": true,
+      "explanation": "In a stateless architecture, consistent hashing does not provide significant benefits since any server can handle any request."
+    },
+    {
+      "question": "Using consistent hashing guarantees that all user requests will be routed to the same server regardless of server load.",
+      "correct_answer": false,
+      "explanation": "Consistent hashing routes requests based on a hash of the user IP, which may not always correspond to the server with the least load."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain how consistent hashing works in the context of routing user requests.",
+      "sample_answer": "Consistent hashing maps user requests to servers based on a hash of the user's IP address. This ensures that the same user is consistently routed to the same server, which is beneficial for caching.",
+      "key_points": [
+        "Maps requests using a hash function",
+        "Ensures consistent routing for the same user",
+        "Improves cache utilization"
+      ]
+    },
+    {
+      "question": "What are the implications of using individual caches on servers when implementing consistent hashing?",
+      "sample_answer": "Using individual caches means that data cached for a user is only available on the server that handles their requests. This can improve performance but also means that if a user is routed to a different server, they may lose access to their cached data.",
+      "key_points": [
+        "Improves performance for repeated requests",
+        "Data is not shared between servers",
+        "Potential data loss if user is routed differently"
+      ]
+    }
+  ]
+}

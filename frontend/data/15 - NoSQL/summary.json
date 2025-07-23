@@ -1,0 +1,29 @@
+{
+  "summary": "NoSQL, which stands for 'not only SQL', refers to a category of non-relational databases that provide flexible data storage options compared to traditional SQL databases. Unlike SQL databases that rely on structured schemas and relationships, NoSQL databases can handle various data types and structures, making them suitable for applications requiring scalability and rapid data access. The rise of NoSQL databases in the 2010s was largely driven by the need to overcome the limitations of SQL databases, particularly in terms of scalability and the ability to manage large volumes of data efficiently. NoSQL databases can be categorized into several types, including key-value stores, document stores, wide-column stores, and graph databases, each designed to address specific data storage and retrieval needs.",
+  "key_concepts": [
+    "Non-relational databases",
+    "Scalability",
+    "Key-value stores",
+    "Document stores",
+    "Wide-column stores",
+    "Graph databases",
+    "Eventual consistency",
+    "ACID vs BASE"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the differences between SQL and NoSQL databases.",
+    "You will learn about the various types of NoSQL databases and their use cases.",
+    "You will grasp the concept of eventual consistency and how it applies to NoSQL databases."
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of databases and SQL"
+  ],
+  "related_topics": [
+    "Database normalization",
+    "Data modeling",
+    "Distributed systems",
+    "Big data technologies"
+  ]
+}

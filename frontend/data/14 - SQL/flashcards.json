@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What does SQL stand for?",
+      "back": "SQL stands for Structured Query Language.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a relational database management system (RDBMS)?",
+      "back": "An RDBMS is a type of database management system that stores data in a structured format, using rows and columns.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary purpose of SQL?",
+      "back": "The primary purpose of SQL is to access and manipulate data stored in a relational database.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between SQL and NoSQL databases?",
+      "back": "SQL databases are relational and use structured query language, while NoSQL databases are non-relational and can store unstructured data.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is data stored on disk in RDBMS?",
+      "back": "Data is stored on disk to ensure persistence, meaning it remains available even after a computer crash.",
+      "category": "principle",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a B+ tree?",
+      "back": "A B+ tree is a type of data structure used in databases that allows for efficient data retrieval and storage, where each node can have multiple children.",
+      "category": "technical term",
+      "difficulty": "hard"
+    },
+    {
+      "front": "How does a B+ tree differ from a binary tree?",
+      "back": "In a B+ tree, each node can have an arbitrary number of children (M), while a binary tree has exactly two children per node.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the significance of the M value in a B+ tree?",
+      "back": "The M value determines the maximum number of children each node can have, which helps optimize the tree structure for efficient data access.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the sorted property of B+ trees?",
+      "back": "The sorted property ensures that for any two keys in the tree, all values between them are stored in the correct order, facilitating efficient searching.",
+      "category": "principle",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why are B+ trees preferred over binary trees in databases?",
+      "back": "B+ trees reduce the height of the tree, which minimizes the number of read and write operations needed to access data stored on disk.",
+      "category": "principle",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What happens to data stored in RAM during a computer crash?",
+      "back": "Data stored in RAM is lost during a computer crash, unlike data stored on disk.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the role of indexing in databases?",
+      "back": "Indexing improves the speed of data retrieval operations on a database by creating a data structure that allows for faster searches.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are the trade-offs of using relational databases?",
+      "back": "Relational databases offer strong consistency and structured data but may struggle with scalability and flexibility compared to NoSQL solutions.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is data persistence?",
+      "back": "Data persistence refers to the characteristic of data that ensures it remains available and intact even after a system failure or shutdown.",
+      "category": "principle",
+      "difficulty": "medium"
+    }
+  ]
+}

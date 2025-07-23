@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeetCode System Design Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .card-flip {
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        .card-flip.flipped {
+            transform: rotateY(180deg);
+        }
+        .card-face {
+            backface-visibility: hidden;
+        }
+        .card-back {
+            transform: rotateY(180deg);
+        }
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+        .progress-ring-circle {
+            stroke-dasharray: 251.2;
+            stroke-dashoffset: 251.2;
+            transition: stroke-dashoffset 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-graduation-cap text-2xl"></i>
+                    <h1 class="text-2xl font-bold">NeetCode System Design Hub</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-trophy text-yellow-300"></i>
+                        <span id="totalScore" class="font-semibold">0</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-fire text-orange-400"></i>
+                        <span id="streakCount" class="font-semibold">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8">
+        <!-- Navigation -->
+        <nav class="mb-8">
+            <div class="flex space-x-4">
+                <button id="topicsBtn" class="nav-btn bg-blue-500 text-white px-6 py-2 rounded-lg font-semibold transition-colors hover:bg-blue-600">
+                    <i class="fas fa-list mr-2"></i>Topics
+                </button>
+                <button id="quizBtn" class="nav-btn bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold transition-colors hover:bg-gray-400">
+                    <i class="fas fa-question-circle mr-2"></i>Quiz
+                </button>
+                <button id="flashcardsBtn" class="nav-btn bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold transition-colors hover:bg-gray-400">
+                    <i class="fas fa-layer-group mr-2"></i>Flashcards
+                </button>
+                <button id="progressBtn" class="nav-btn bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold transition-colors hover:bg-gray-400">
+                    <i class="fas fa-chart-line mr-2"></i>Progress
+                </button>
+            </div>
+        </nav>
+
+        <!-- Topics View -->
+        <div id="topicsView" class="view">
+            <div class="mb-6">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">System Design Topics</h2>
+                <p class="text-gray-600">Choose a topic to start learning</p>
+            </div>
+            
+            <div id="topicsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Topics will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quizView" class="view hidden">
+            <div class="max-w-4xl mx-auto">
+                <!-- Quiz Topic Selection -->
+                <div id="quizTopicSelection" class="text-center">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Select Quiz Topic</h2>
+                    <div id="quizTopicsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <!-- Quiz topics will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Quiz Interface -->
+                <div id="quizInterface" class="hidden">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <div class="flex justify-between items-center mb-6">
+                            <h3 id="quizTopicTitle" class="text-2xl font-bold text-gray-800"></h3>
+                            <div class="flex items-center space-x-4">
+                                <span id="questionCounter" class="text-gray-600 font-semibold"></span>
+                                <div class="w-16 h-16">
+                                    <svg class="progress-ring w-16 h-16">
+                                        <circle class="progress-ring-circle stroke-blue-500" stroke-width="4" fill="transparent" r="40" cx="32" cy="32"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="questionContainer" class="mb-8">
+                            <!-- Questions will be loaded here -->
+                        </div>
+                        
+                        <div class="flex justify-between">
+                            <button id="prevQuestion" class="bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold hover:bg-gray-400 disabled:opacity-50">
+                                <i class="fas fa-arrow-left mr-2"></i>Previous
+                            </button>
+                            <button id="nextQuestion" class="bg-blue-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600">
+                                Next<i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz Results -->
+                <div id="quizResults" class="hidden">
+                    <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                        <div class="mb-6">
+                            <i class="fas fa-trophy text-6xl text-yellow-500 mb-4"></i>
+                            <h3 class="text-3xl font-bold text-gray-800 mb-2">Quiz Complete!</h3>
+                            <p class="text-xl text-gray-600">Your Score: <span id="finalScore" class="font-bold text-blue-600"></span></p>
+                        </div>
+                        <div class="grid grid-cols-3 gap-4 mb-8">
+                            <div class="bg-green-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-green-600" id="correctAnswers">0</div>
+                                <div class="text-green-600">Correct</div>
+                            </div>
+                            <div class="bg-red-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-red-600" id="incorrectAnswers">0</div>
+                                <div class="text-red-600">Incorrect</div>
+                            </div>
+                            <div class="bg-blue-100 p-4 rounded-lg">
+                                <div class="text-2xl font-bold text-blue-600" id="totalQuestions">0</div>
+                                <div class="text-blue-600">Total</div>
+                            </div>
+                        </div>
+                        <button id="retakeQuiz" class="bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 mr-4">
+                            <i class="fas fa-redo mr-2"></i>Retake Quiz
+                        </button>
+                        <button id="backToTopics" class="bg-gray-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600">
+                            <i class="fas fa-home mr-2"></i>Back to Topics
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flashcards View -->
+        <div id="flashcardsView" class="view hidden">
+            <div class="max-w-4xl mx-auto">
+                <!-- Flashcard Topic Selection -->
+                <div id="flashcardTopicSelection" class="text-center">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Select Flashcard Topic</h2>
+                    <div id="flashcardTopicsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <!-- Flashcard topics will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Flashcard Interface -->
+                <div id="flashcardInterface" class="hidden">
+                    <div class="text-center mb-6">
+                        <h3 id="flashcardTopicTitle" class="text-2xl font-bold text-gray-800 mb-2"></h3>
+                        <p class="text-gray-600">Click the card to flip it</p>
+                        <div class="mt-4">
+                            <span id="flashcardCounter" class="text-gray-600 font-semibold"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-center">
+                        <div id="flashcard" class="card-flip w-96 h-64 relative cursor-pointer">
+                            <div class="card-face card-front absolute inset-0 bg-white rounded-lg shadow-lg border-2 border-blue-200 flex items-center justify-center p-6">
+                                <div id="flashcardFront" class="text-center">
+                                    <div class="text-lg font-semibold text-gray-800"></div>
+                                </div>
+                            </div>
+                            <div class="card-face card-back absolute inset-0 bg-blue-50 rounded-lg shadow-lg border-2 border-blue-200 flex items-center justify-center p-6">
+                                <div id="flashcardBack" class="text-center">
+                                    <div class="text-lg text-gray-800"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex justify-center space-x-4 mt-8">
+                        <button id="prevFlashcard" class="bg-gray-300 text-gray-700 px-6 py-2 rounded-lg font-semibold hover:bg-gray-400 disabled:opacity-50">
+                            <i class="fas fa-arrow-left mr-2"></i>Previous
+                        </button>
+                        <button id="shuffleFlashcards" class="bg-purple-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-purple-600">
+                            <i class="fas fa-random mr-2"></i>Shuffle
+                        </button>
+                        <button id="nextFlashcard" class="bg-blue-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600">
+                            Next<i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="text-center mt-6">
+                        <button id="backToFlashcardTopics" class="bg-gray-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-600">
+                            <i class="fas fa-home mr-2"></i>Back to Topics
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress View -->
+        <div id="progressView" class="view hidden">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Your Learning Progress</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <i class="fas fa-book-open text-4xl text-blue-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Topics Completed</h3>
+                        <div class="text-3xl font-bold text-blue-600" id="completedTopics">0</div>
+                        <div class="text-gray-600">out of 20</div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <i class="fas fa-award text-4xl text-green-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Average Score</h3>
+                        <div class="text-3xl font-bold text-green-600" id="averageScore">0%</div>
+                        <div class="text-gray-600">across all quizzes</div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                        <i class="fas fa-calendar-check text-4xl text-purple-500 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Study Streak</h3>
+                        <div class="text-3xl font-bold text-purple-600" id="studyStreak">0</div>
+                        <div class="text-gray-600">days</div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Topic Progress</h3>
+                    <div id="topicProgressList" class="space-y-4">
+                        <!-- Progress bars will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg p-6 text-center">
+            <i class="fas fa-spinner fa-spin text-4xl text-blue-500 mb-4"></i>
+            <p class="text-gray-700">Loading...</p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

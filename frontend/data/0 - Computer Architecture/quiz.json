@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does HDD stand for?",
+      "options": [
+        "Hard Disk Drive",
+        "High Definition Drive",
+        "Hard Data Drive",
+        "High Density Disk"
+      ],
+      "correct_answer": 0,
+      "explanation": "HDD stands for Hard Disk Drive, which is a type of storage device."
+    },
+    {
+      "question": "What is the primary advantage of SSDs over HDDs?",
+      "options": [
+        "Higher storage capacity",
+        "Lower cost",
+        "Faster data access",
+        "More durable"
+      ],
+      "correct_answer": 2,
+      "explanation": "SSDs are generally faster than HDDs in terms of data access speed."
+    },
+    {
+      "question": "How is storage capacity typically measured?",
+      "options": [
+        "In bits",
+        "In bytes",
+        "In gigabytes and terabytes",
+        "In kilobytes"
+      ],
+      "correct_answer": 2,
+      "explanation": "Storage capacity is commonly measured in gigabytes (GB) and terabytes (TB)."
+    },
+    {
+      "question": "What does RAM stand for?",
+      "options": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Rapid Access Memory",
+        "Real-time Access Memory"
+      ],
+      "correct_answer": 1,
+      "explanation": "RAM stands for Random Access Memory, which is used for temporary data storage."
+    },
+    {
+      "question": "Why is RAM typically smaller than disk storage?",
+      "options": [
+        "It is less important",
+        "It is more expensive",
+        "It is slower",
+        "It has lower capacity"
+      ],
+      "correct_answer": 1,
+      "explanation": "RAM is typically smaller than disk storage because it is more expensive to produce."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "An SSD is slower than an HDD.",
+      "correct_answer": false,
+      "explanation": "An SSD is generally faster than an HDD in terms of data access speed."
+    },
+    {
+      "question": "Data stored in RAM is persistent across computer restarts.",
+      "correct_answer": false,
+      "explanation": "Data in RAM is not persistent; it is lost when the computer is turned off or crashes."
+    },
+    {
+      "question": "One terabyte is equal to one trillion bytes.",
+      "correct_answer": true,
+      "explanation": "One terabyte is indeed equal to 10 to the power of 12 bytes, which is one trillion bytes."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between RAM and disk storage.",
+      "sample_answer": "RAM is temporary storage that is faster but smaller, while disk storage is permanent and larger.",
+      "key_points": [
+        "RAM is volatile",
+        "Disk storage is non-volatile",
+        "RAM is faster than disk storage"
+      ]
+    },
+    {
+      "question": "What is the significance of bits and bytes in data representation?",
+      "sample_answer": "Bits are the smallest unit of data, and bytes are made up of 8 bits, used to represent characters and data.",
+      "key_points": [
+        "Bits are 0s and 1s",
+        "A byte consists of 8 bits",
+        "Bytes represent larger data units"
+      ]
+    }
+  ]
+}

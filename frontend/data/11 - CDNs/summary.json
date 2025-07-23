@@ -1,0 +1,27 @@
+{
+  "summary": "Content Delivery Networks (CDNs) are systems designed to cache data closer to end users, reducing latency and improving the speed of data retrieval. By distributing servers globally, CDNs allow static content such as images, videos, and JavaScript files to be accessed from locations nearer to users, rather than relying solely on a central origin server. This not only enhances the user experience by speeding up access to content but also alleviates the load on the origin server, increasing overall system reliability and availability. CDNs can be categorized into push and pull types, each with distinct methods for managing how and when content is distributed across the network.",
+  "key_concepts": [
+    "Content Delivery Networks (CDNs)",
+    "Static vs Dynamic Content",
+    "Push vs Pull CDNs",
+    "Caching Mechanisms",
+    "Latency Reduction",
+    "Data Availability and Reliability"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the fundamental purpose of CDNs and how they improve data delivery.",
+    "You will learn the differences between push and pull CDNs and their respective use cases.",
+    "You will grasp the significance of caching static content and its impact on performance."
+  ],
+  "difficulty_level": "beginner",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of web architecture and data retrieval processes"
+  ],
+  "related_topics": [
+    "Edge Computing",
+    "Web Performance Optimization",
+    "HTTP Caching Strategies",
+    "Load Balancing Techniques"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the purpose of an IP address?",
+      "options": [
+        "To identify a machine",
+        "To encrypt data",
+        "To store files",
+        "To manage network traffic"
+      ],
+      "correct_answer": 0,
+      "explanation": "An IP address uniquely identifies a machine on a network."
+    },
+    {
+      "question": "How many bits are used in an IPv4 address?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "correct_answer": 1,
+      "explanation": "IPv4 addresses are 32 bits in length."
+    },
+    {
+      "question": "What is the maximum value for each segment of an IPv4 address?",
+      "options": [
+        "128",
+        "256",
+        "999",
+        "255"
+      ],
+      "correct_answer": 3,
+      "explanation": "Each segment of an IPv4 address can go up to 255, as it is a part of a 32-bit integer."
+    },
+    {
+      "question": "What does IPv6 allow for in terms of address length?",
+      "options": [
+        "32 bits",
+        "64 bits",
+        "128 bits",
+        "256 bits"
+      ],
+      "correct_answer": 2,
+      "explanation": "IPv6 allows for 128 bits, significantly increasing the number of unique addresses."
+    },
+    {
+      "question": "What analogy is used to explain data communication between computers?",
+      "options": [
+        "Sending a package",
+        "Sending an email",
+        "Sending mail in an envelope",
+        "Making a phone call"
+      ],
+      "correct_answer": 2,
+      "explanation": "The analogy of sending mail in an envelope is used to explain how data packets are sent between computers."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "An IP address is a unique identifier for a machine on a network.",
+      "correct_answer": true,
+      "explanation": "An IP address serves as a unique identifier for each machine in a network."
+    },
+    {
+      "question": "IPv4 can support more than 4 billion unique addresses.",
+      "correct_answer": false,
+      "explanation": "IPv4 can support about 4 billion unique addresses, which is a limitation."
+    },
+    {
+      "question": "Each segment of an IPv4 address can contain values up to 999.",
+      "correct_answer": false,
+      "explanation": "Each segment of an IPv4 address can only contain values from 0 to 255."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the structure of an IPv4 address.",
+      "sample_answer": "An IPv4 address consists of four segments, each containing a number from 0 to 255, separated by dots.",
+      "key_points": [
+        "Four segments",
+        "Each segment is 0-255",
+        "Separated by dots"
+      ]
+    },
+    {
+      "question": "What are the main differences between IPv4 and IPv6?",
+      "sample_answer": "IPv4 uses 32 bits for addresses while IPv6 uses 128 bits, allowing for a much larger number of unique addresses.",
+      "key_points": [
+        "IPv4: 32 bits",
+        "IPv6: 128 bits",
+        "More unique addresses in IPv6"
+      ]
+    }
+  ]
+}

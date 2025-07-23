@@ -1,0 +1,29 @@
+{
+  "summary": "The Domain Name System (DNS) is a crucial component of the internet that translates user-friendly domain names into IP addresses, allowing users to access websites without needing to remember numerical addresses. It operates as a decentralized system, where requests for domain names are processed through various servers, including those managed by Internet Service Providers (ISPs) and the Internet Corporation for Assigned Names and Numbers (ICANN), which oversees domain ownership. The DNS functions similarly to a phone book, mapping domain names to their corresponding IP addresses, enabling seamless navigation on the web.\n\nWhen a user types a domain name like Google.com into their browser, the DNS system resolves this name to an IP address, allowing the browser to connect to the appropriate server. The process involves multiple steps, including interactions with registrars that manage domain names and caching mechanisms that store IP addresses to improve efficiency. Understanding the DNS is essential for grasping how web traffic is routed and how domain ownership is maintained, although a deeper technical understanding is typically not required for system design interviews.",
+  "key_concepts": [
+    "Domain Name System (DNS)",
+    "IP Address Resolution",
+    "Internet Corporation for Assigned Names and Numbers (ICANN)",
+    "Domain Registrars",
+    "DNS Records",
+    "Caching",
+    "Top-Level Domains (TLDs)",
+    "Subdomains"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the purpose and function of the Domain Name System (DNS).",
+    "You will learn how domain names are translated into IP addresses and the role of various entities like ICANN and domain registrars.",
+    "You will gain insight into the structure of domain names, including subdomains and top-level domains."
+  ],
+  "difficulty_level": "beginner",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of internet concepts and networking."
+  ],
+  "related_topics": [
+    "Networking Basics",
+    "Web Hosting",
+    "HTTP and HTTPS Protocols",
+    "Server Architecture"
+  ]
+}

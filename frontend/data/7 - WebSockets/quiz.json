@@ -1,0 +1,98 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the default port for FTP?",
+      "options": [
+        "21",
+        "25",
+        "80",
+        "443"
+      ],
+      "correct_answer": 0,
+      "explanation": "FTP (File Transfer Protocol) runs by default on port 21."
+    },
+    {
+      "question": "Which protocol is optimized for sending emails?",
+      "options": [
+        "FTP",
+        "SMTP",
+        "SSH",
+        "WebRTC"
+      ],
+      "correct_answer": 1,
+      "explanation": "SMTP stands for Simple Mail Transfer Protocol, which is specifically designed for sending emails."
+    },
+    {
+      "question": "What transport layer protocol is WebRTC built on?",
+      "options": [
+        "TCP",
+        "UDP",
+        "HTTP",
+        "FTP"
+      ],
+      "correct_answer": 1,
+      "explanation": "WebRTC is optimized for video and audio streaming and is built on UDP."
+    },
+    {
+      "question": "What is the main limitation of using HTTP for real-time applications like chat?",
+      "options": [
+        "High latency",
+        "Low bandwidth",
+        "Security issues",
+        "Limited file size"
+      ],
+      "correct_answer": 0,
+      "explanation": "HTTP is not designed for real-time communication, leading to high latency when polling for updates."
+    },
+    {
+      "question": "What is the term used for repeatedly sending HTTP requests to get updated information?",
+      "options": [
+        "Streaming",
+        "Polling",
+        "Pinging",
+        "Broadcasting"
+      ],
+      "correct_answer": 1,
+      "explanation": "Polling refers to the method of repeatedly sending requests to check for new data."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "TCP is the most common transport layer protocol used by application layer protocols.",
+      "correct_answer": true,
+      "explanation": "TCP is widely used due to its reliability and connection-oriented nature."
+    },
+    {
+      "question": "WebRTC is built on TCP to ensure reliability in video streaming.",
+      "correct_answer": false,
+      "explanation": "WebRTC is built on UDP, which is chosen for its lower latency, despite being less reliable than TCP."
+    },
+    {
+      "question": "HTTP can be used effectively for real-time chat applications without any limitations.",
+      "correct_answer": false,
+      "explanation": "HTTP has limitations in real-time scenarios due to its request-response model and polling requirements."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between TCP and UDP.",
+      "sample_answer": "TCP is connection-oriented and ensures reliable data transmission, while UDP is connectionless and allows faster transmission with no guarantee of delivery.",
+      "key_points": [
+        "TCP is reliable",
+        "UDP is faster",
+        "TCP establishes a connection",
+        "UDP does not guarantee delivery"
+      ]
+    },
+    {
+      "question": "What are the trade-offs of using WebSockets compared to HTTP for real-time applications?",
+      "sample_answer": "WebSockets provide a persistent connection allowing for real-time data transfer, while HTTP requires repeated requests, leading to higher latency.",
+      "key_points": [
+        "WebSockets allow real-time communication",
+        "HTTP requires polling",
+        "WebSockets reduce latency",
+        "HTTP can lead to unnecessary overhead"
+      ]
+    }
+  ]
+}

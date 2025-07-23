@@ -1,0 +1,28 @@
+{
+  "summary": "Message queues are a powerful tool for handling large volumes of application events that may be generated faster than they can be processed. By decoupling the event producers from the event consumers, message queues allow for asynchronous processing of events, which enhances scalability and reliability. Events are sent to a message queue where they are stored durably, ensuring that they are not lost even if the queue crashes. This architecture allows applications to process events at their own pace, rather than requiring immediate processing, which can lead to bottlenecks.",
+  "key_concepts": [
+    "Asynchronous processing",
+    "Decoupling of services",
+    "Durability of messages",
+    "Polling vs. pushing messages",
+    "Acknowledgment of messages",
+    "PubSub architecture",
+    "Topics and subscriptions"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the fundamental concepts of message queues and their role in system design.",
+    "You will learn how to implement asynchronous processing and the benefits of decoupling services using message queues."
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of application architecture",
+    "Familiarity with event-driven programming"
+  ],
+  "related_topics": [
+    "Event-driven architecture",
+    "Microservices",
+    "Cloud messaging services",
+    "Data streaming technologies"
+  ]
+}

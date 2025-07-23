@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary role of a server in application architecture?",
+      "options": [
+        "To store data",
+        "To handle requests",
+        "To write code",
+        "To deploy applications"
+      ],
+      "correct_answer": 1,
+      "explanation": "A server's primary role is to handle requests from users and serve them the necessary information."
+    },
+    {
+      "question": "What does CICD stand for?",
+      "options": [
+        "Continuous Integration Continuous Deployment",
+        "Computer Integrated Continuous Development",
+        "Code Integration Code Deployment",
+        "Continuous Improvement Continuous Delivery"
+      ],
+      "correct_answer": 0,
+      "explanation": "CICD stands for Continuous Integration Continuous Deployment, which is a common practice in professional development environments."
+    },
+    {
+      "question": "Which of the following is NOT a valid storage mechanism mentioned?",
+      "options": [
+        "Database",
+        "File System",
+        "In-memory Cache",
+        "Web Server"
+      ],
+      "correct_answer": 3,
+      "explanation": "A web server is not a storage mechanism; it serves requests and delivers content, while the others are methods of storing data."
+    },
+    {
+      "question": "What format is commonly used for data exchange between a server and a client?",
+      "options": [
+        "XML",
+        "HTML",
+        "JSON",
+        "CSV"
+      ],
+      "correct_answer": 2,
+      "explanation": "JSON is a popular data format used for data exchange between servers and clients."
+    },
+    {
+      "question": "What is meant by 'distributed storage'?",
+      "options": [
+        "Storage on a single server",
+        "Storage that is geographically dispersed",
+        "Storage that is only temporary",
+        "Storage that is only for backups"
+      ],
+      "correct_answer": 1,
+      "explanation": "Distributed storage refers to data storage that is spread across multiple locations or servers, often for redundancy and performance."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "A server can only store data in a database.",
+      "correct_answer": false,
+      "explanation": "A server can store data in various mechanisms, including but not limited to databases."
+    },
+    {
+      "question": "CICD is an optional step in the deployment process.",
+      "correct_answer": true,
+      "explanation": "While CICD is common in professional environments, it is considered an optional step in the deployment process."
+    },
+    {
+      "question": "Users communicate with the server primarily through their browsers.",
+      "correct_answer": true,
+      "explanation": "Users typically send requests to the server using their web browsers to access applications."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between persistent storage and distributed storage.",
+      "sample_answer": "Persistent storage refers to any storage mechanism that retains data over time, while distributed storage refers to data that is stored across multiple locations or servers.",
+      "key_points": [
+        "Persistent storage retains data over time",
+        "Distributed storage is spread across multiple locations"
+      ]
+    },
+    {
+      "question": "What are the key steps in deploying code to a server?",
+      "sample_answer": "The key steps include writing code, building the code, deploying it to a server, and ensuring it can handle user requests.",
+      "key_points": [
+        "Writing code",
+        "Building the code",
+        "Deploying to a server",
+        "Handling user requests"
+      ]
+    }
+  ]
+}

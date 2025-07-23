@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What is replication in databases?",
+      "back": "Replication is the process of creating copies of a database to handle increased traffic and requests.",
+      "category": "Replication",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between leader and follower in replication?",
+      "back": "The leader (or master) is responsible for writing and replicating data, while the follower (or slave) can only read data and receives updates from the leader.",
+      "category": "Replication",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is leader follower replication?",
+      "back": "Leader follower replication is a model where one database (the leader) handles all writes and replicates data to one or more follower databases that handle reads.",
+      "category": "Replication",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are the tradeoffs of using replication?",
+      "back": "Replication can improve read performance and availability but introduces complexity in data consistency and potential lag in data updates across replicas.",
+      "category": "Replication",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the role of a client in database operations?",
+      "back": "Clients, such as applications or users, interact with the database through an application layer, sending requests for data operations.",
+      "category": "General Concepts",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Why is the term 'master-slave' becoming outdated?",
+      "back": "The term 'master-slave' is being replaced by 'leader-follower' to avoid connotations of oppression and to promote more inclusive language.",
+      "category": "Terminology",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Can followers write data in leader follower replication?",
+      "back": "No, followers cannot write data; they can only read data that has been replicated from the leader.",
+      "category": "Replication",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens if a follower is allowed to write data?",
+      "back": "If a follower is allowed to write data, it can lead to inconsistencies and complicate the replication process, as the follower would need to replicate its changes back to the leader.",
+      "category": "Replication",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is sharding in databases?",
+      "back": "Sharding is the process of partitioning a database into smaller, more manageable pieces called shards, which can be distributed across multiple servers.",
+      "category": "Sharding",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does sharding improve database performance?",
+      "back": "Sharding improves performance by distributing data across multiple servers, allowing for parallel processing of queries and reducing the load on any single database instance.",
+      "category": "Sharding",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about replication?",
+      "back": "A common misconception is that replication automatically solves all performance issues; however, it can introduce complexity and may not address write bottlenecks.",
+      "category": "Misconceptions",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the primary benefit of using leader follower replication?",
+      "back": "The primary benefit is improved read scalability, as multiple followers can handle read requests, reducing the load on the leader.",
+      "category": "Replication",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between replication and sharding?",
+      "back": "Replication and sharding are both strategies to improve database performance and availability, but replication focuses on duplicating data for reads, while sharding partitions data across multiple databases.",
+      "category": "General Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a potential downside of sharding?",
+      "back": "A potential downside of sharding is increased complexity in managing multiple database instances and ensuring data consistency across shards.",
+      "category": "Sharding",
+      "difficulty": "hard"
+    }
+  ]
+}

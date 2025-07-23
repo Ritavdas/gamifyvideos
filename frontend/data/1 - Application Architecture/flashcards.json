@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is application architecture?",
+      "back": "The high-level structure of an application, defining how different components interact and are organized.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a server?",
+      "back": "A computer that handles requests and serves users by running application code.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does CICD stand for?",
+      "back": "Continuous Integration, Continuous Deployment; a practice that automates the building and deployment of code.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is persistent storage?",
+      "back": "A mechanism for storing data that remains available even after the application is not running, often implemented with databases.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is distributed storage?",
+      "back": "A storage system where data is stored across multiple servers, often located in different geographical locations.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the role of a front-end server?",
+      "back": "To serve client-side code (like HTML and JavaScript) to users' browsers.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is an API?",
+      "back": "Application Programming Interface; a set of rules that allows different software entities to communicate with each other.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What data format is commonly used for API responses?",
+      "back": "JSON (JavaScript Object Notation), a lightweight data interchange format that's easy for humans to read and write.",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What happens when multiple users make requests to a server simultaneously?",
+      "back": "The server must be capable of handling concurrent requests, which may require load balancing or scaling solutions.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the purpose of building and deploying code?",
+      "back": "To prepare application code for execution on a server, making it accessible to users.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about servers?",
+      "back": "That servers can only be physical machines; they can also be virtual servers hosted in the cloud.",
+      "category": "misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of network connectivity in application architecture?",
+      "back": "It allows different components, like servers and storage, to communicate and share data effectively.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of a developer in application architecture?",
+      "back": "To write code that implements the application's functionality and ensures it can be deployed and run on servers.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is an intermediate step before code reaches a server?",
+      "back": "The code must be built and deployed, often using a CICD process.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between a server and external storage?",
+      "back": "A server may rely on external storage mechanisms to manage and store data persistently.",
+      "category": "concept",
+      "difficulty": "medium"
+    }
+  ]
+}

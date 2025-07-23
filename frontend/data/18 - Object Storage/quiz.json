@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is a key characteristic of object storage?",
+      "options": [
+        "A) Hierarchical structure",
+        "B) Flat storage structure",
+        "C) Requires constant updates",
+        "D) Limited to small files"
+      ],
+      "correct_answer": 1,
+      "explanation": "Object storage uses a flat storage structure, meaning there are no folders or hierarchies."
+    },
+    {
+      "question": "Which of the following is an example of object storage?",
+      "options": [
+        "A) MySQL",
+        "B) AWS S3",
+        "C) NTFS",
+        "D) MongoDB"
+      ],
+      "correct_answer": 1,
+      "explanation": "AWS S3 is a widely recognized example of object storage."
+    },
+    {
+      "question": "What does the term 'blob' in blob storage refer to?",
+      "options": [
+        "A) Binary Large Object",
+        "B) Basic Log Object",
+        "C) Binary Local Object",
+        "D) Basic Large Object"
+      ],
+      "correct_answer": 0,
+      "explanation": "Blob stands for Binary Large Object, which is a key concept in object storage."
+    },
+    {
+      "question": "In object storage, how are files typically accessed?",
+      "options": [
+        "A) Through a hierarchical file system",
+        "B) By unique keys",
+        "C) Using SQL queries",
+        "D) By file extensions"
+      ],
+      "correct_answer": 1,
+      "explanation": "Files in object storage are accessed using unique keys, similar to a hash map."
+    },
+    {
+      "question": "What is a limitation of object storage compared to traditional file systems?",
+      "options": [
+        "A) Cannot store large files",
+        "B) Cannot update existing files",
+        "C) Requires more storage space",
+        "D) Slower access times"
+      ],
+      "correct_answer": 1,
+      "explanation": "A key limitation of object storage is that once files are stored, they cannot be updated."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "Object storage allows for hierarchical organization of files.",
+      "correct_answer": false,
+      "explanation": "Object storage does not support hierarchical organization; it uses a flat structure."
+    },
+    {
+      "question": "Globally unique names are required for objects in AWS S3.",
+      "correct_answer": true,
+      "explanation": "In AWS S3, each object must have a globally unique name to avoid conflicts."
+    },
+    {
+      "question": "Object storage is primarily designed for small text files.",
+      "correct_answer": false,
+      "explanation": "Object storage is optimized for large files, such as media and backups, rather than small text files."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the difference between object storage and traditional file systems.",
+      "sample_answer": "Object storage uses a flat structure without folders, while traditional file systems have a hierarchical structure with folders and subfolders.",
+      "key_points": [
+        "Flat storage structure",
+        "No hierarchical organization",
+        "Accessed by unique keys"
+      ]
+    },
+    {
+      "question": "What are some common use cases for object storage?",
+      "sample_answer": "Common use cases include storing media files like images and videos, as well as backups of databases.",
+      "key_points": [
+        "Storing media files",
+        "Database backups",
+        "Large file storage"
+      ]
+    }
+  ]
+}

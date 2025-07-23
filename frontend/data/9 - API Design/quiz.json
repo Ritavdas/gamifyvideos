@@ -1,0 +1,98 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Application Protocol Interface",
+        "Advanced Programming Interface",
+        "Application Process Interface"
+      ],
+      "correct_answer": 0,
+      "explanation": "API stands for Application Programming Interface, which defines how different software components should interact."
+    },
+    {
+      "question": "Which of the following is NOT a CRUD operation?",
+      "options": [
+        "Create",
+        "Read",
+        "Update",
+        "Transmit"
+      ],
+      "correct_answer": 3,
+      "explanation": "Transmit is not a standard CRUD operation; the standard operations are Create, Read, Update, and Delete."
+    },
+    {
+      "question": "In REST API design, which HTTP method is typically used for creating a resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_answer": 1,
+      "explanation": "The POST method is used in REST APIs to create a new resource."
+    },
+    {
+      "question": "What is an entity in the context of API design?",
+      "options": [
+        "A function",
+        "A user",
+        "A resource",
+        "An endpoint"
+      ],
+      "correct_answer": 2,
+      "explanation": "An entity refers to a resource that is being interacted with, such as a tweet in the Twitter API."
+    },
+    {
+      "question": "Which of the following describes the 'surface area' of an API?",
+      "options": [
+        "The implementation details",
+        "The endpoints and methods available",
+        "The server hosting the API",
+        "The database structure"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'surface area' of an API refers to the endpoints and methods available for interaction, not the implementation details."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "API design focuses on the implementation details of the API.",
+      "correct_answer": false,
+      "explanation": "API design focuses on the surface area and how users interact with the API, not the implementation details."
+    },
+    {
+      "question": "CRUD stands for Create, Read, Update, and Delete.",
+      "correct_answer": true,
+      "explanation": "CRUD is an acronym that stands for Create, Read, Update, and Delete, which are the basic operations for managing resources."
+    },
+    {
+      "question": "In REST APIs, the verb is included in the endpoint URL.",
+      "correct_answer": false,
+      "explanation": "In REST APIs, the verb is not included in the endpoint URL; instead, it is represented by the HTTP method used (e.g., GET, POST)."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "What are the key components of an API contract?",
+      "sample_answer": "The key components of an API contract include the endpoints, the methods available for each endpoint, the parameters required, and the expected responses.",
+      "key_points": [
+        "Endpoints",
+        "Methods",
+        "Parameters",
+        "Expected responses"
+      ]
+    },
+    {
+      "question": "Explain the difference between REST and RPC in API design.",
+      "sample_answer": "REST focuses on resources and uses standard HTTP methods, while RPC includes the verb in the endpoint and is more function-oriented.",
+      "key_points": [
+        "REST focuses on resources",
+        "Uses standard HTTP methods",
+        "RPC includes verbs in endpoints",
+        "Function-oriented design"
+      ]
+    }
+  ]
+}

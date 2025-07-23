@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What is a CDN?",
+      "back": "A Content Delivery Network (CDN) is a system of distributed servers that cache data closer to end users to improve access speed and reduce latency.",
+      "category": "Definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the primary purpose of a CDN?",
+      "back": "The primary purpose of a CDN is to bring content closer to end users, minimizing the distance data must travel and improving load times.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What types of content can be stored on CDN servers?",
+      "back": "CDN servers can only store static content that does not change, such as images, videos, and JavaScript files.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is an origin server?",
+      "back": "An origin server is the original source of content that CDN servers cache and distribute to end users.",
+      "category": "Definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Why can't dynamic content be stored on CDN servers?",
+      "back": "Dynamic content changes frequently and requires real-time processing, which CDN servers are not designed to handle.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is static content?",
+      "back": "Static content refers to files that do not change and can be served directly to users without modification, such as images and CSS files.",
+      "category": "Definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What are edge servers?",
+      "back": "Edge servers are a newer type of server that can run code and are located closer to end users, allowing for more dynamic content delivery.",
+      "category": "Concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is a common misconception about CDNs?",
+      "back": "A common misconception is that CDNs can handle all types of content, but they are limited to static content only.",
+      "category": "Misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How do CDNs improve website performance?",
+      "back": "CDNs improve website performance by reducing latency and load times through geographically distributed servers that cache content closer to users.",
+      "category": "Application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is an example of static content that can be served by a CDN?",
+      "back": "An example of static content is an image of the Eiffel Tower, which remains the same for all users and can be cached on CDN servers.",
+      "category": "Example",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the relationship between CDN servers and users?",
+      "back": "CDN servers are strategically placed around the world to ensure that users can access cached content from a server that is geographically closer to them.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens when a user requests content not available on a CDN?",
+      "back": "If a user requests content not available on a CDN, the request is forwarded to the origin server to retrieve the data.",
+      "category": "Concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the benefit of caching JavaScript files on a CDN?",
+      "back": "Caching JavaScript files on a CDN allows users to access the same version without hitting the origin server each time, improving load times.",
+      "category": "Application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is it important to have multiple CDN servers worldwide?",
+      "back": "Having multiple CDN servers worldwide ensures that content is available closer to users, reducing latency and improving access speed.",
+      "category": "Concept",
+      "difficulty": "medium"
+    }
+  ]
+}

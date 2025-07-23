@@ -1,0 +1,26 @@
+{
+  "summary": "WebSockets are a protocol designed to address the limitations of HTTP, particularly in scenarios requiring real-time communication, such as chat applications. Unlike HTTP, which operates on a request-response model, WebSockets establish a persistent connection between the client and server, allowing for bi-directional communication. This means that once the connection is established through a handshake, data can flow freely in both directions without the need for repeated requests, making it more efficient for applications that require real-time updates, such as live chats or streaming data feeds.\n\nThe protocol begins with a WebSocket handshake, where the client sends an HTTP request to upgrade the connection. Upon receiving a status code of 101 from the server, the connection is established, allowing for immediate data transmission. This is particularly advantageous in scenarios like Twitch chat, where users expect to see messages in real time without the delays associated with polling methods. While WebSockets are widely used, it is important to note that newer protocols, such as HTTP/2, have introduced features that can make WebSockets less necessary in some contexts, although they remain relevant for many real-time applications.",
+  "key_concepts": [
+    "WebSocket Handshake",
+    "Bi-directional Communication",
+    "Persistent Connection",
+    "Polling vs. WebSockets",
+    "Real-time Data Streaming"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the limitations of HTTP and how WebSockets address these limitations.",
+    "You will learn how to implement WebSockets for real-time applications like chat systems."
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of HTTP and networking concepts",
+    "Familiarity with client-server architecture"
+  ],
+  "related_topics": [
+    "HTTP/2",
+    "WebRTC",
+    "Real-time Web Applications",
+    "Server-Sent Events"
+  ]
+}

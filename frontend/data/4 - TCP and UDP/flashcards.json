@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What does TCP stand for?",
+      "back": "Transmission Control Protocol",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does UDP stand for?",
+      "back": "User Datagram Protocol",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the main purpose of TCP?",
+      "back": "To provide reliable, ordered, and error-checked delivery of data between applications.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the main purpose of UDP?",
+      "back": "To provide a simpler, connectionless communication method without guarantees for delivery or ordering.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does 'reliability' in TCP mean?",
+      "back": "TCP ensures that all packets are delivered and reassembled in the correct order, resending any missing packets.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is packet encapsulation?",
+      "back": "The process of wrapping data packets in headers for transmission over a network, such as TCP packets inside IP packets.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a key difference between TCP and IP?",
+      "back": "TCP provides reliability and ordering, while IP is a bare-bones protocol that only handles packet delivery without guarantees.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens if packets arrive out of order in TCP?",
+      "back": "TCP reorders the packets to ensure they are assembled in the correct sequence.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the Internet Protocol Suite commonly referred to as?",
+      "back": "TCP/IP",
+      "category": "technical term",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Why is TCP considered more common than UDP?",
+      "back": "TCP is widely used for applications that require reliable data transmission, such as web browsing and file transfers.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a misconception about TCP/IP?",
+      "back": "Many believe TCP/IP only refers to TCP and IP, but it also includes other protocols like UDP.",
+      "category": "misconception",
+      "difficulty": "hard"
+    },
+    {
+      "front": "How does TCP handle lost packets?",
+      "back": "TCP detects missing packets and automatically resends only those packets to ensure complete data delivery.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of the term 'connectionless' in UDP?",
+      "back": "UDP does not establish a connection before sending data, which can lead to faster transmission but less reliability.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "In what scenarios is UDP typically used?",
+      "back": "UDP is used in applications where speed is more critical than reliability, such as video streaming and online gaming.",
+      "category": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

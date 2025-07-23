@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What is object storage?",
+      "back": "A storage mechanism that stores data in a flat structure without hierarchies, unlike traditional file systems.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How does object storage differ from file systems?",
+      "back": "Object storage does not use folders or hierarchies; it stores data as flat objects, while file systems organize data in a hierarchical structure with folders.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are some popular examples of object storage services?",
+      "back": "AWS S3, Google Cloud Storage, and Azure Blob Storage.",
+      "category": "application",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a blob in the context of object storage?",
+      "back": "A blob stands for Binary Large Object, which refers to large files such as images, videos, or database backups stored in object storage.",
+      "category": "definition",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Can files in object storage be updated after being stored?",
+      "back": "No, files stored in object storage cannot be edited or updated; they can only be added or read.",
+      "category": "misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a key characteristic of how objects are stored in object storage?",
+      "back": "Objects are stored with globally unique names, meaning no two objects can have the same name across all users of the service.",
+      "category": "principle",
+      "difficulty": "hard"
+    },
+    {
+      "front": "How does object storage optimize access to stored objects?",
+      "back": "Object storage uses a flat structure similar to a hash map, allowing for quick access to objects through unique keys.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common trade-off when using object storage?",
+      "back": "The inability to update or modify existing files once they are stored.",
+      "category": "principle",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between object storage and hash maps?",
+      "back": "Both object storage and hash maps use unique keys for quick access and do not allow duplicate entries.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What types of files are typically stored in object storage?",
+      "back": "Large files such as media (images, videos) and backups, rather than small, frequently updated files.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What illusion do some object storage services create?",
+      "back": "They create the illusion of a file system by allowing users to organize files into 'folders,' but these are just part of the file names.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of globally unique names in object storage?",
+      "back": "Globally unique names prevent naming conflicts across different users and instances of the storage service.",
+      "category": "principle",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the predecessor to object storage?",
+      "back": "Blob storage, which also deals with large binary objects.",
+      "category": "definition",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is object storage considered a newer technology compared to file systems?",
+      "back": "Object storage has been developed to meet the needs of modern applications that require scalable and efficient storage for large amounts of unstructured data.",
+      "category": "concept",
+      "difficulty": "medium"
+    }
+  ]
+}

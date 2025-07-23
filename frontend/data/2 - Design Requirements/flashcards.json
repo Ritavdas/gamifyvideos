@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is the primary goal of system design?",
+      "back": "To design effective systems that solve large problems.",
+      "category": "goal",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a key aspect of system design interviews?",
+      "back": "They require weighing trade-offs and selecting the best option, rather than memorizing facts.",
+      "category": "interview process",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does system design primarily involve?",
+      "back": "Moving data around between components or machines.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How does data movement differ in large systems compared to individual computers?",
+      "back": "Data can be moved between machines across different data centers, not just within a single machine.",
+      "category": "data movement",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between data storage in RAM and on disk?",
+      "back": "Data in RAM is volatile and lost on restart, while data on disk is persistent.",
+      "category": "data storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are binary search trees and arrays examples of?",
+      "back": "Different data structures with unique properties and trade-offs.",
+      "category": "data structures",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about system design?",
+      "back": "That there is always a perfect solution; often, trade-offs must be made.",
+      "category": "misconception",
+      "difficulty": "hard"
+    },
+    {
+      "front": "Why is understanding high-level concepts important in system design?",
+      "back": "It helps to simplify complex systems and focus on the core function of moving data.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a trade-off in system design?",
+      "back": "A compromise made when choosing one option over another, often involving sacrifices.",
+      "category": "principle",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of data persistence?",
+      "back": "It ensures that data is not lost when a system crashes or restarts.",
+      "category": "data storage",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are the two primary locations where data can be stored?",
+      "back": "In RAM (volatile) and on disk (persistent).",
+      "category": "data storage",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the importance of analyzing improvements in system design?",
+      "back": "It helps identify what can be enhanced and what compromises are necessary.",
+      "category": "principle",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a key focus when designing large systems?",
+      "back": "Understanding how to effectively move and store data.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does the complexity of system design often lead to?",
+      "back": "The need for a structured thought process rather than rote memorization.",
+      "category": "principle",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the relationship between data structures and their applications?",
+      "back": "Different data structures are suited for different applications based on their properties.",
+      "category": "data structures",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Consistent hashing is a technique used in distributed systems to efficiently map user requests to servers while minimizing disruption when servers are added or removed. Unlike traditional hashing methods that may lead to significant reallocation of user requests when the number of servers changes, consistent hashing allows for a more stable mapping by placing servers on a circular space. This ensures that most users continue to be routed to the same server, preserving the benefits of local caching and reducing the need for repeated data processing. The technique is particularly useful in scenarios such as load balancing, content delivery networks (CDNs), and database partitioning, where maintaining consistent access to user data is crucial.\n\nThe basic principle of consistent hashing involves using a hash function to map user identifiers, such as IP addresses, to positions on a circular space. When a server is added or removed, only a small subset of users needs to be re-routed, allowing the system to maintain efficiency and performance. This method is more complex than simpler approaches like round-robin but is essential in cases where data locality and caching are important. Overall, consistent hashing serves as a valuable tool for developers in designing scalable and resilient distributed systems.",
+  "key_concepts": [
+    "Consistent Hashing",
+    "Load Balancing",
+    "Caching",
+    "Circular Space",
+    "Hash Function",
+    "Node Mapping",
+    "Scalability",
+    "Data Locality"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the concept of consistent hashing and its applications in distributed systems.",
+    "You will learn how consistent hashing differs from traditional hashing methods and why it is beneficial in scenarios involving dynamic server configurations.",
+    "You will be able to explain the role of hash functions and circular mapping in maintaining consistent user request routing."
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of hashing and distributed systems concepts",
+    "Familiarity with load balancing techniques"
+  ],
+  "related_topics": [
+    "Rendezvous Hashing",
+    "Distributed Databases",
+    "Content Delivery Networks (CDNs)",
+    "Caching Strategies"
+  ]
+}

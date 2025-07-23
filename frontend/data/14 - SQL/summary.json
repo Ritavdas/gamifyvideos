@@ -1,0 +1,27 @@
+{
+  "summary": "This lesson introduces the fundamental concepts of SQL and relational database management systems (RDBMS). SQL, or Structured Query Language, is a critical component for interacting with relational databases, allowing users to store, retrieve, and manipulate data efficiently. The lesson emphasizes the importance of understanding the structure of relational databases, which typically use B+ trees for data organization and indexing to facilitate quick data access. It also covers the significance of tables, schemas, and relationships between data, highlighting how SQL allows for the definition of constraints and relationships through primary and foreign keys.\n\nFurthermore, the lesson delves into the ACID properties that define the reliability and integrity of transactions within relational databases. ACID stands for Atomicity, Consistency, Isolation, and Durability, each representing a crucial aspect of transaction management. The discussion includes practical examples to illustrate each property and their importance in maintaining data integrity and consistency, especially in scenarios involving concurrent transactions. Overall, the lesson provides a comprehensive overview of relational databases, their structure, and the principles that govern their operation.",
+  "key_concepts": [
+    "SQL (Structured Query Language)",
+    "Relational Database Management Systems (RDBMS)",
+    "B+ Trees",
+    "Tables and Schemas",
+    "Primary and Foreign Keys",
+    "ACID Properties (Atomicity, Consistency, Isolation, Durability)"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the basic structure and functionality of relational databases.",
+    "You will be able to explain the significance of SQL in managing data within RDBMS.",
+    "You will learn about the ACID properties and their importance in transaction management."
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_study_time": "60 minutes",
+  "prerequisites": [
+    "Basic understanding of databases and data structures"
+  ],
+  "related_topics": [
+    "NoSQL Databases",
+    "Database Normalization",
+    "Advanced SQL Queries",
+    "Database Transactions"
+  ]
+}

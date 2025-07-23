@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What does NoSQL stand for?",
+      "back": "Not only SQL.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a more accurate term for NoSQL databases?",
+      "back": "Non-relational databases.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the main limitation of NoSQL databases compared to SQL databases?",
+      "back": "NoSQL databases do not support standard query language for complex operations like joining tables.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the primary advantage of NoSQL databases?",
+      "back": "Scalability, allowing them to handle larger amounts of data than traditional SQL databases.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a key-value store?",
+      "back": "A type of NoSQL database that stores data as a collection of key-value pairs, similar to a HashMap.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Name two popular key-value stores.",
+      "back": "Redis and Memcache.",
+      "category": "practical application",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a document store?",
+      "back": "A type of NoSQL database that stores data in documents, which are organized into collections.",
+      "category": "definition",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How do document stores differ from traditional SQL databases?",
+      "back": "Document stores use collections of documents instead of tables and rows.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common use case for key-value stores?",
+      "back": "They are often used for caching data to improve read and write speeds.",
+      "category": "practical application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a misconception about NoSQL databases?",
+      "back": "That they are superior to SQL databases; both have trade-offs and are suited for different use cases.",
+      "category": "misconception",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the primary data structure used in key-value stores?",
+      "back": "Key-value pairs, where each key is unique and maps to a value.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Why are key-value stores considered fast?",
+      "back": "They typically operate in memory (RAM) rather than on disk, allowing for quicker access.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of a primary database in relation to key-value stores?",
+      "back": "Key-value stores are often used alongside a primary database for caching purposes.",
+      "category": "practical application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of unique keys in key-value stores?",
+      "back": "Unique keys serve as primary keys, ensuring that each entry can be distinctly identified.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What type of data can be stored in a document in a document store?",
+      "back": "Documents can contain various fields and data types, allowing for more complex structures than key-value pairs.",
+      "category": "definition",
+      "difficulty": "medium"
+    }
+  ]
+}

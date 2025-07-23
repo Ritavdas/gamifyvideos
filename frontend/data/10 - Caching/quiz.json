@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary purpose of caching?",
+      "options": [
+        "To increase data storage",
+        "To lower latency and increase throughput",
+        "To ensure data persistence",
+        "To manage network connections"
+      ],
+      "correct_answer": 1,
+      "explanation": "Caching is primarily used to lower latency and increase throughput by storing frequently accessed data in a faster storage medium."
+    },
+    {
+      "question": "Which component of a computer can read and write data the fastest?",
+      "options": [
+        "RAM",
+        "Disk",
+        "CPU Cache",
+        "Network"
+      ],
+      "correct_answer": 2,
+      "explanation": "The CPU cache is the fastest component for reading and writing data, as it is located closest to the CPU."
+    },
+    {
+      "question": "Why is caching beneficial in distributed systems?",
+      "options": [
+        "It reduces the amount of data stored",
+        "It decreases network costs",
+        "It increases data redundancy",
+        "It eliminates the need for RAM"
+      ],
+      "correct_answer": 1,
+      "explanation": "Caching in distributed systems decreases network costs by reducing the amount of data sent over the network and minimizing the distance data travels."
+    },
+    {
+      "question": "What type of content is ideal for caching?",
+      "options": [
+        "Dynamic content",
+        "Static content",
+        "Temporary files",
+        "User-generated content"
+      ],
+      "correct_answer": 1,
+      "explanation": "Static content, which does not change frequently, is ideal for caching because it can be stored and accessed quickly without needing to fetch it repeatedly from the server."
+    },
+    {
+      "question": "What happens to data stored in RAM when the power is turned off?",
+      "options": [
+        "It is permanently saved",
+        "It is lost",
+        "It is backed up to disk",
+        "It is transferred to cache"
+      ],
+      "correct_answer": 1,
+      "explanation": "Data stored in RAM is volatile, meaning it is lost when the power is turned off."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "Caching can help improve the performance of applications by reducing the time it takes to access data.",
+      "correct_answer": true,
+      "explanation": "True, caching improves performance by allowing faster access to frequently used data."
+    },
+    {
+      "question": "The CPU cache can store more data than RAM.",
+      "correct_answer": false,
+      "explanation": "False, the CPU cache cannot store as much data as RAM; it is smaller in size but faster."
+    },
+    {
+      "question": "Static content does not change frequently and is suitable for caching.",
+      "correct_answer": true,
+      "explanation": "True, static content remains the same and is ideal for caching to improve access speed."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain how caching can reduce network costs in distributed systems.",
+      "sample_answer": "Caching reduces network costs by storing copies of frequently accessed data closer to the user, minimizing the amount of data that needs to be transmitted over the network.",
+      "key_points": [
+        "Stores data closer to the user",
+        "Reduces data transmission",
+        "Minimizes network latency"
+      ]
+    },
+    {
+      "question": "Describe the difference between RAM and CPU cache in terms of speed and storage capacity.",
+      "sample_answer": "The CPU cache is much faster than RAM but has a smaller storage capacity. While RAM can hold larger amounts of data, the cache provides quicker access to frequently used data.",
+      "key_points": [
+        "CPU cache is faster",
+        "RAM has larger capacity",
+        "Cache is used for frequently accessed data"
+      ]
+    }
+  ]
+}

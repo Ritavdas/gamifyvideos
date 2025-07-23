@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is an IP address?",
+      "back": "An IP address is a unique identifier assigned to each machine on a network, allowing it to communicate over the internet.",
+      "category": "Networking Basics",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How many bits are in an IPv4 address?",
+      "back": "An IPv4 address is a 32-bit integer.",
+      "category": "Networking Basics",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the maximum value for each segment of an IPv4 address?",
+      "back": "The maximum value for each segment of an IPv4 address is 255.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the limitation of IPv4?",
+      "back": "IPv4 can support approximately 4 billion unique addresses, which is insufficient for the number of devices connected to the internet.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the purpose of an IP address?",
+      "back": "An IP address uniquely identifies a machine on a network, allowing for data to be sent to and from that machine.",
+      "category": "Networking Basics",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is IPv6?",
+      "back": "IPv6 is the successor to IPv4, using 128 bits for addresses, allowing for a vastly larger number of unique addresses.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What analogy is used to explain data transmission between computers?",
+      "back": "The analogy of sending mail in real life, where an envelope must specify the sender and recipient's addresses.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a packet of data?",
+      "back": "A packet of data is a formatted unit of data carried by a packet-switched network, which includes source and destination IP addresses.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How do computers identify each other on a network?",
+      "back": "Computers identify each other on a network using their unique IP addresses.",
+      "category": "Networking Basics",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the significance of the sender's and recipient's IP addresses in data transmission?",
+      "back": "They are essential for routing the data correctly between the sender and recipient machines.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What happens if we run out of IPv4 addresses?",
+      "back": "The transition to IPv6 is necessary, as it provides a much larger address space to accommodate more devices.",
+      "category": "Networking Basics",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the structure of an IPv4 address?",
+      "back": "An IPv4 address is typically represented as four decimal numbers separated by dots, each ranging from 0 to 255.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is it important for each machine to have a unique IP address?",
+      "back": "A unique IP address ensures that data sent over the internet reaches the correct destination without confusion.",
+      "category": "Networking Basics",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is the role of public IP addresses?",
+      "back": "Public IP addresses are used to identify devices on the public internet, allowing them to communicate with each other.",
+      "category": "Networking Basics",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a misconception about IP addresses?",
+      "back": "A common misconception is that all IP addresses are static; many are dynamic and can change over time.",
+      "category": "Networking Basics",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "flashcards": [
+    {
+      "front": "What is an API?",
+      "back": "An API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What does API contract refer to?",
+      "back": "The API contract describes how users will interact with the API, including the available endpoints and the expected inputs and outputs.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What are CRUD operations?",
+      "back": "CRUD stands for Create, Read, Update, and Delete, which are the four basic operations for managing resources in an API.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is an entity in the context of API design?",
+      "back": "An entity is a noun that represents a resource in the API, such as a tweet in the Twitter API.",
+      "category": "definition",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What HTTP methods correspond to CRUD operations?",
+      "back": "Create corresponds to POST, Read corresponds to GET, Update corresponds to PUT/PATCH, and Delete corresponds to DELETE.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the significance of REST in API design?",
+      "back": "REST (Representational State Transfer) is an architectural style that uses standard HTTP methods for API interactions, making it widely adopted for public APIs.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between REST and RPC?",
+      "back": "In REST, the HTTP method defines the action, while in RPC (Remote Procedure Call), the verb is included in the endpoint itself.",
+      "category": "concept",
+      "difficulty": "hard"
+    },
+    {
+      "front": "Why is API design important for publicly facing APIs?",
+      "back": "Because publicly facing APIs cannot change their interfaces frequently without breaking existing client applications, making stable design crucial.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of input and output in API design?",
+      "back": "Input refers to the parameters sent to the API, while output is the response returned by the API, which can include data or error codes.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What does it mean to not care about implementation details in API design?",
+      "back": "It means focusing on how users interact with the API rather than how the API is implemented internally.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is an endpoint in API design?",
+      "back": "An endpoint is a specific URL where an API can be accessed and where specific actions can be performed.",
+      "category": "definition",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is a POST request used for in API design?",
+      "back": "A POST request is used to create a new resource on the server, such as creating a new tweet.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about API design?",
+      "back": "A common misconception is that API design is only about the technical implementation, rather than focusing on user interaction and experience.",
+      "category": "misconception",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is the expected response when creating a resource via an API?",
+      "back": "The expected response is typically the created resource or an error code indicating why the creation failed.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the importance of stability in API design?",
+      "back": "Stability ensures that existing applications relying on the API continue to function correctly even as the API evolves.",
+      "category": "concept",
+      "difficulty": "medium"
+    }
+  ]
+}

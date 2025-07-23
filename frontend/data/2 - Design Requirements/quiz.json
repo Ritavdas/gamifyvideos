@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What is the primary goal of system design according to the transcript?",
+      "options": [
+        "To memorize facts",
+        "To design effective systems",
+        "To create perfect solutions",
+        "To analyze data only"
+      ],
+      "correct_answer": 1,
+      "explanation": "The primary goal of system design is to design effective systems to solve big problems."
+    },
+    {
+      "question": "What is emphasized as a key aspect of system design in interviews?",
+      "options": [
+        "Knowing every detail",
+        "Thought process and trade-offs",
+        "Speed of design",
+        "Simplicity of solutions"
+      ],
+      "correct_answer": 1,
+      "explanation": "The thought process and analyzing trade-offs are crucial in system design interviews."
+    },
+    {
+      "question": "How does data movement differ in larger systems compared to individual computers?",
+      "options": [
+        "It is simpler",
+        "It involves more components",
+        "It is always faster",
+        "It is less important"
+      ],
+      "correct_answer": 1,
+      "explanation": "In larger systems, data movement involves more components and can be more complex."
+    },
+    {
+      "question": "What is a significant difference between storing data in RAM and on disk?",
+      "options": [
+        "RAM is faster",
+        "Disk is more expensive",
+        "RAM is persistent",
+        "Disk is volatile"
+      ],
+      "correct_answer": 0,
+      "explanation": "RAM is faster but not persistent, while disk storage is persistent."
+    },
+    {
+      "question": "Which data structure is mentioned as being different from an array?",
+      "options": [
+        "Linked list",
+        "Hash table",
+        "Binary search tree",
+        "Stack"
+      ],
+      "correct_answer": 2,
+      "explanation": "A binary search tree is mentioned as a different data structure compared to an array."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "System design is primarily about memorizing facts.",
+      "correct_answer": false,
+      "explanation": "System design is about the thought process and analyzing trade-offs, not memorization."
+    },
+    {
+      "question": "Data stored in RAM is guaranteed to persist after a computer restart.",
+      "correct_answer": false,
+      "explanation": "Data in RAM is not guaranteed to persist after a restart, while data on disk is."
+    },
+    {
+      "question": "Moving data across a network is straightforward.",
+      "correct_answer": false,
+      "explanation": "Moving data across a network, especially between different locations, is complex."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the importance of trade-offs in system design.",
+      "sample_answer": "Trade-offs are crucial in system design as they help determine the best option when no perfect solution exists.",
+      "key_points": [
+        "Not every solution is perfect",
+        "Weighing options is necessary",
+        "Improvement often requires sacrifices"
+      ]
+    },
+    {
+      "question": "Describe the difference between storing data in an array and a binary search tree.",
+      "sample_answer": "Arrays allow for fast access but have fixed sizes, while binary search trees provide dynamic sizing and efficient searching.",
+      "key_points": [
+        "Arrays have fixed sizes",
+        "Binary search trees allow dynamic sizing",
+        "Different use cases for each structure"
+      ]
+    }
+  ]
+}

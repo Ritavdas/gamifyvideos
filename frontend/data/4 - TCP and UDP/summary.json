@@ -1,0 +1,28 @@
+{
+  "summary": "TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two fundamental transport layer protocols that play crucial roles in data transmission over the internet. TCP is known for its reliability and ordered delivery of packets, making it suitable for applications where data integrity is paramount, such as web browsing and email. It establishes a connection between the sender and receiver through a process called the three-way handshake, ensuring that lost packets are retransmitted and that data arrives in the correct order. However, this reliability comes with overhead, resulting in increased latency compared to UDP.\n\nOn the other hand, UDP is a connectionless protocol that prioritizes speed over reliability. It does not guarantee the delivery or order of packets, making it ideal for real-time applications like video streaming and online gaming, where timely delivery is more critical than complete accuracy. While UDP may result in lost or out-of-order packets, its lower overhead allows for faster data transmission, which is essential in scenarios where real-time performance is crucial. Understanding the trade-offs between TCP and UDP is important for software developers when choosing the appropriate protocol for their applications.",
+  "key_concepts": [
+    "TCP",
+    "UDP",
+    "three-way handshake",
+    "packet ordering",
+    "reliability",
+    "connectionless protocol",
+    "real-time data transmission"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the fundamental differences between TCP and UDP.",
+    "You will learn about the advantages and disadvantages of each protocol.",
+    "You will be able to identify appropriate use cases for TCP and UDP in software development."
+  ],
+  "difficulty_level": "beginner",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of networking concepts"
+  ],
+  "related_topics": [
+    "HTTP",
+    "DNS",
+    "network protocols",
+    "application layer protocols"
+  ]
+}

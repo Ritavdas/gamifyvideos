@@ -1,0 +1,88 @@
+{
+  "flashcards": [
+    {
+      "front": "What is caching?",
+      "back": "Caching is the process of storing a copy of data in a faster storage medium (cache) to improve data retrieval speed and reduce latency.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "Why is cache faster than RAM?",
+      "back": "Cache is faster than RAM because it is located closer to the CPU and is designed for quick access, though it has a smaller storage capacity.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the main purpose of caching?",
+      "back": "The main purpose of caching is to lower latency and increase throughput by allowing faster data access.",
+      "category": "principle",
+      "difficulty": "easy"
+    },
+    {
+      "front": "How does caching benefit distributed systems?",
+      "back": "Caching in distributed systems reduces network costs by minimizing data transfer over the network and allowing quicker access to frequently used data.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is a common misconception about caching?",
+      "back": "A common misconception is that caching is only useful for large datasets; in reality, it is beneficial for frequently accessed data, regardless of size.",
+      "category": "misconception",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is static content in the context of caching?",
+      "back": "Static content refers to data that does not change frequently, such as JavaScript files, making it ideal for caching.",
+      "category": "concept",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What happens when you refresh a page with cached static content?",
+      "back": "When you refresh a page with cached static content, the browser retrieves the data from the cache instead of making a new HTTP request, improving load times.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the relationship between cache size and speed?",
+      "back": "Typically, smaller caches are faster because they are closer to the CPU, but they can store less data compared to larger memory like RAM.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the role of the CPU cache?",
+      "back": "The CPU cache stores frequently accessed data and instructions to speed up processing by reducing the time it takes to access data from RAM.",
+      "category": "technical term",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is throughput in the context of caching?",
+      "back": "Throughput refers to the amount of data processed in a given amount of time, which caching aims to increase by speeding up data access.",
+      "category": "concept",
+      "difficulty": "medium"
+    },
+    {
+      "front": "How does caching reduce network costs?",
+      "back": "Caching reduces network costs by minimizing the amount of data that needs to be sent over the network, as frequently accessed data is stored locally.",
+      "category": "application",
+      "difficulty": "medium"
+    },
+    {
+      "front": "What is the difference between cache and persistent storage?",
+      "back": "Cache is temporary and fast storage for quick data access, while persistent storage (like disk) retains data permanently but is slower to access.",
+      "category": "technical term",
+      "difficulty": "hard"
+    },
+    {
+      "front": "What is an example of a good use case for caching?",
+      "back": "A good use case for caching is serving static files like images or JavaScript that do not change often, allowing for faster load times.",
+      "category": "application",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What is latency in the context of data retrieval?",
+      "back": "Latency refers to the delay before a transfer of data begins following an instruction for its transfer, which caching aims to minimize.",
+      "category": "concept",
+      "difficulty": "medium"
+    }
+  ]
+}

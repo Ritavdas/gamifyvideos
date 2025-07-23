@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does DNS stand for?",
+      "options": [
+        "Domain Name System",
+        "Dynamic Network Service",
+        "Data Network System",
+        "Domain Network Service"
+      ],
+      "correct_answer": 0,
+      "explanation": "DNS stands for Domain Name System, which is a system that translates domain names into IP addresses."
+    },
+    {
+      "question": "What is the primary function of the DNS?",
+      "options": [
+        "To store user data",
+        "To translate domain names into IP addresses",
+        "To provide internet security",
+        "To manage network traffic"
+      ],
+      "correct_answer": 1,
+      "explanation": "The primary function of DNS is to translate user-friendly domain names into IP addresses that computers can understand."
+    },
+    {
+      "question": "Which command is used to look up the IP address of a domain?",
+      "options": [
+        "Ping",
+        "Traceroute",
+        "NSLookUp",
+        "IPConfig"
+      ],
+      "correct_answer": 2,
+      "explanation": "The NSLookUp command is used to find the IP address associated with a domain name."
+    },
+    {
+      "question": "What analogy is used to explain the function of DNS?",
+      "options": [
+        "A library system",
+        "A phone book",
+        "A postal service",
+        "A traffic control system"
+      ],
+      "correct_answer": 1,
+      "explanation": "The analogy of a phone book is used to explain how DNS maps domain names to IP addresses, similar to how a phone book maps names to phone numbers."
+    },
+    {
+      "question": "What happens when you type a domain name into a browser?",
+      "options": [
+        "The browser directly accesses the server",
+        "The DNS translates the domain name to an IP address",
+        "The browser sends a request to the ISP",
+        "The browser opens a local cache"
+      ],
+      "correct_answer": 1,
+      "explanation": "When you type a domain name into a browser, the DNS translates that domain name into an IP address so the browser can access the server."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "DNS is a centralized system that manages all domain name translations.",
+      "correct_answer": false,
+      "explanation": "DNS is a decentralized system that allows for distributed management of domain name translations."
+    },
+    {
+      "question": "You can access a website by typing its IP address directly into the browser.",
+      "correct_answer": true,
+      "explanation": "You can access a website by typing its IP address directly, as it points to the same server as the domain name."
+    },
+    {
+      "question": "The main purpose of DNS is to enhance internet security.",
+      "correct_answer": false,
+      "explanation": "The main purpose of DNS is to translate domain names into IP addresses, not to enhance internet security."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain how DNS improves user experience on the internet.",
+      "sample_answer": "DNS allows users to access websites using easy-to-remember domain names instead of complex IP addresses.",
+      "key_points": [
+        "User-friendly names",
+        "Simplifies web access",
+        "No need to remember IP addresses"
+      ]
+    },
+    {
+      "question": "Describe the process that occurs when you enter a domain name in a browser.",
+      "sample_answer": "When a domain name is entered, the browser sends a request to DNS to resolve the name to an IP address, which is then used to access the server.",
+      "key_points": [
+        "Browser sends request",
+        "DNS resolves domain name",
+        "Access server using IP address"
+      ]
+    }
+  ]
+}

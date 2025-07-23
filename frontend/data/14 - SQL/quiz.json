@@ -1,0 +1,96 @@
+{
+  "multiple_choice": [
+    {
+      "question": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Standard Query Language",
+        "Simple Query Language",
+        "Sequential Query Language"
+      ],
+      "correct_answer": 1,
+      "explanation": "SQL stands for Standard Query Language, which is used for managing and querying data in relational databases."
+    },
+    {
+      "question": "What is the primary purpose of a relational database management system (RDBMS)?",
+      "options": [
+        "To store data in RAM",
+        "To provide a way to query data",
+        "To manage data in a structured way",
+        "To create web applications"
+      ],
+      "correct_answer": 2,
+      "explanation": "The primary purpose of an RDBMS is to manage data in a structured way, allowing for efficient storage, retrieval, and manipulation of data."
+    },
+    {
+      "question": "What is a B plus tree?",
+      "options": [
+        "A type of binary tree",
+        "A data structure used in RDBMS",
+        "A method for data encryption",
+        "A programming language"
+      ],
+      "correct_answer": 1,
+      "explanation": "A B plus tree is a data structure used in relational database management systems to efficiently store and retrieve data."
+    },
+    {
+      "question": "Why are B plus trees preferred over binary trees in databases?",
+      "options": [
+        "They are easier to implement",
+        "They can have multiple children per node",
+        "They require less memory",
+        "They are faster for all operations"
+      ],
+      "correct_answer": 1,
+      "explanation": "B plus trees can have multiple children per node, which helps reduce the size of the tree and minimizes the number of read and write operations needed."
+    },
+    {
+      "question": "What happens to data stored in RAM if the computer crashes?",
+      "options": [
+        "It is saved to disk",
+        "It is lost",
+        "It is backed up automatically",
+        "It is sent to the cloud"
+      ],
+      "correct_answer": 1,
+      "explanation": "Data stored in RAM is volatile and will be lost if the computer crashes, unlike data stored on disk which is persistent."
+    }
+  ],
+  "true_false": [
+    {
+      "question": "SQL is only used for querying data in databases.",
+      "correct_answer": false,
+      "explanation": "SQL is not only used for querying data; it is also used for managing and manipulating data within relational databases."
+    },
+    {
+      "question": "Relational databases store data in a structured format.",
+      "correct_answer": true,
+      "explanation": "Relational databases organize data in tables with defined relationships, making it structured and easy to query."
+    },
+    {
+      "question": "B plus trees can only have two children per node.",
+      "correct_answer": false,
+      "explanation": "B plus trees can have multiple children per node, which is a key feature that differentiates them from binary trees."
+    }
+  ],
+  "short_answer": [
+    {
+      "question": "Explain the significance of data persistence in relational databases.",
+      "sample_answer": "Data persistence ensures that data is not lost when the computer crashes, as it is stored on disk rather than in volatile memory.",
+      "key_points": [
+        "Data is stored on disk",
+        "Prevents data loss",
+        "Important for reliability"
+      ]
+    },
+    {
+      "question": "Describe the structure of a B plus tree and its advantages.",
+      "sample_answer": "A B plus tree is a type of tree data structure where each node can have multiple children and contains multiple keys. This structure allows for efficient data retrieval and minimizes the number of read/write operations.",
+      "key_points": [
+        "M-way tree structure",
+        "Multiple keys per node",
+        "Efficient data retrieval"
+      ]
+    }
+  ]
+}

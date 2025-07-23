@@ -1,0 +1,29 @@
+{
+  "summary": "Computer architecture is a foundational concept in understanding how computers operate at a high level. It involves the interaction of various components, including storage devices (like HDDs and SSDs), memory (RAM), and the CPU (Central Processing Unit). Storage devices are responsible for persistent data storage, while RAM provides faster access to data but is volatile. The CPU acts as the brain of the computer, executing instructions and performing computations. Additionally, the CPU utilizes a cache to speed up data access, allowing for quicker read and write operations. Understanding these components is crucial for software engineers, as they form the basis for designing both individual computers and larger distributed systems.\n\nAs we delve deeper into computer architecture, we recognize that while individual computers have limitations, they can be combined to create distributed systems that solve larger problems. The performance of these systems is influenced by factors such as CPU speed, which has historically followed Moore's Law, indicating an exponential growth in transistor count and processing power. However, this growth is beginning to plateau, highlighting the need for distributed systems to overcome the limitations of single CPUs. This foundational knowledge is essential for anyone looking to design efficient and scalable systems in the field of computer science.",
+  "key_concepts": [
+    "Storage (HDD, SSD)",
+    "RAM (Random Access Memory)",
+    "CPU (Central Processing Unit)",
+    "Cache",
+    "Data Persistence",
+    "Moore's Law",
+    "Distributed Systems"
+  ],
+  "learning_objectives": [
+    "After studying this, you will understand the main components of a computer and their functions.",
+    "You will be able to explain the differences between storage types, RAM, and CPU operations.",
+    "You will gain insight into the limitations of individual computers and the advantages of distributed systems."
+  ],
+  "difficulty_level": "beginner",
+  "estimated_study_time": "30 minutes",
+  "prerequisites": [
+    "Basic understanding of computer science concepts",
+    "Familiarity with programming"
+  ],
+  "related_topics": [
+    "Distributed Systems",
+    "Operating Systems",
+    "Data Structures and Algorithms",
+    "Computer Networking"
+  ]
+}
