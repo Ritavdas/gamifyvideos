@@ -17,7 +17,7 @@ class LearningMaterialsGenerator:
     def __init__(self):
         """Initialize OpenAI client"""
         load_dotenv()
-        self.client = OpenAI(api_key="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")
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     def generate_quiz_questions(self, transcript_text, topic):
         """Generate quiz questions from transcript"""
